@@ -1,33 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-tw">
     <head>
         <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="Dogecoin">
-<meta name="description" content="A hardware wallet is a device designed to store a user&amp;rsquo;s private keys securely, without ever exposing them to other external devices or the internet. For this reason, most hardware wallets are cold wallets and are amongst the most secure methods for storing and using Dogecoin and other cryptos.
-Usually, hardware wallets can be connected to a PC or another device via a USB or Bluetooth connection. Through this connection, they can be used to sign a transaction occurring in a wallet application running on the external device (such as your PC)." />
-<meta name="keywords" content="dogecoin, doge, currency, cryptocurrency, digital currency, shiba inu" />
+<meta name="description" content="硬體錢包是一種用於安全存儲用戶私鑰的設備，不會將它們暴露給其他外部設備或網際網路。因此，大多數硬體錢包都是冷錢包，是存儲和使用狗狗幣以及其他加密貨幣最安全的方法之一。
+通常，硬體錢包可以通過USB或藍牙等其他設備連接到電腦。通過此連接，它們可以用來對外部設備(如你的電腦)上運行的錢包應用程序中的交易進行簽名。交易是在硬體錢包內進行簽名的，除非硬體錢包以前有被洩露過，否則在整個過程中私鑰永遠不會向外界公開。
+從理論上講，這使得硬體錢包在有風險的電腦上使用也很安全。有幾家硬體錢包製造商，它們在其硬體和相關軟體中都包含了不同的特性，以防止加密貨幣持有者在存儲加密貨幣時落入常見的陷阱。這些特性可能包括安全PIN碼、自毀機制和自動生成助記詞。
+如今，大多數硬體錢包都依賴於使用助記詞，助記詞作為一種主密鑰通常是由24個單詞組成，硬體錢包通過使用它計算出私鑰並訪問和使用你所持有的加密貨幣。在首次使用硬體錢包時，可以生成新的助記詞或者輸入舊的助記詞。
+助記詞是你在硬體錢包中所有加密貨幣的鑰匙。正因如此，它也被稱為恢復短語，你必須在數個安全的地方，並將它儲存在多個副本中。助記詞的副本就等同於你對自己的硬體錢包進行了完整備份，即使你的硬體錢包遺失了，你也可以通過簡單地輸入你曾備份的助記詞到新錢包中，從而恢復你所有的加密貨幣。
+使用狗狗幣的硬體錢包非常容易，所有的硬體錢包製造商都提供了說明，來指導你如何使用他們的設備進行交易。通常情況下，只需將設備插入電腦，輸入PIN碼或可選的密碼，然後開始並確認你想要進行的交易。硬體錢包的另一個好處是，它們可以使你的狗狗幣交易變得更加容易的同時亦保護你的隱私。" />
+<meta name="keywords" content="狗狗幣, doge, 貨幣, 加密貨幣, 數字貨幣, 柴犬" />
 <meta name="robots" content="noodp" />
 
 <meta property="og:image" content="https://dogecoin.com/assets/images/dogecoin-card.png"/>
-<meta property="og:title" content="What are the benefits of a hardware wallet, and how to use it with Doge?">
-<meta property="og:description" content="A hardware wallet is a device designed to store a user&amp;rsquo;s private keys securely, without ever exposing them to other external devices or the internet. For this reason, most hardware wallets are cold wallets and are amongst the most secure methods for storing and using Dogecoin and other cryptos.
-Usually, hardware wallets can be connected to a PC or another device via a USB or Bluetooth connection. Through this connection, they can be used to sign a transaction occurring in a wallet application running on the external device (such as your PC).">
+<meta property="og:title" content="硬體錢包的優點以及如何使用？">
+<meta property="og:description" content="硬體錢包是一種用於安全存儲用戶私鑰的設備，不會將它們暴露給其他外部設備或網際網路。因此，大多數硬體錢包都是冷錢包，是存儲和使用狗狗幣以及其他加密貨幣最安全的方法之一。
+通常，硬體錢包可以通過USB或藍牙等其他設備連接到電腦。通過此連接，它們可以用來對外部設備(如你的電腦)上運行的錢包應用程序中的交易進行簽名。交易是在硬體錢包內進行簽名的，除非硬體錢包以前有被洩露過，否則在整個過程中私鑰永遠不會向外界公開。
+從理論上講，這使得硬體錢包在有風險的電腦上使用也很安全。有幾家硬體錢包製造商，它們在其硬體和相關軟體中都包含了不同的特性，以防止加密貨幣持有者在存儲加密貨幣時落入常見的陷阱。這些特性可能包括安全PIN碼、自毀機制和自動生成助記詞。
+如今，大多數硬體錢包都依賴於使用助記詞，助記詞作為一種主密鑰通常是由24個單詞組成，硬體錢包通過使用它計算出私鑰並訪問和使用你所持有的加密貨幣。在首次使用硬體錢包時，可以生成新的助記詞或者輸入舊的助記詞。
+助記詞是你在硬體錢包中所有加密貨幣的鑰匙。正因如此，它也被稱為恢復短語，你必須在數個安全的地方，並將它儲存在多個副本中。助記詞的副本就等同於你對自己的硬體錢包進行了完整備份，即使你的硬體錢包遺失了，你也可以通過簡單地輸入你曾備份的助記詞到新錢包中，從而恢復你所有的加密貨幣。
+使用狗狗幣的硬體錢包非常容易，所有的硬體錢包製造商都提供了說明，來指導你如何使用他們的設備進行交易。通常情況下，只需將設備插入電腦，輸入PIN碼或可選的密碼，然後開始並確認你想要進行的交易。硬體錢包的另一個好處是，它們可以使你的狗狗幣交易變得更加容易的同時亦保護你的隱私。">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://dogecoin.com/">
 
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="What are the benefits of a hardware wallet, and how to use it with Doge?">
+<meta name="twitter:title" content="硬體錢包的優點以及如何使用？">
 <meta name="twitter:site" content="https://dogecoin.com/">
-<meta name="twitter:description" content="A hardware wallet is a device designed to store a user&amp;rsquo;s private keys securely, without ever exposing them to other external devices or the internet. For this reason, most hardware wallets are cold wallets and are amongst the most secure methods for storing and using Dogecoin and other cryptos.
-Usually, hardware wallets can be connected to a PC or another device via a USB or Bluetooth connection. Through this connection, they can be used to sign a transaction occurring in a wallet application running on the external device (such as your PC).">
+<meta name="twitter:description" content="硬體錢包是一種用於安全存儲用戶私鑰的設備，不會將它們暴露給其他外部設備或網際網路。因此，大多數硬體錢包都是冷錢包，是存儲和使用狗狗幣以及其他加密貨幣最安全的方法之一。
+通常，硬體錢包可以通過USB或藍牙等其他設備連接到電腦。通過此連接，它們可以用來對外部設備(如你的電腦)上運行的錢包應用程序中的交易進行簽名。交易是在硬體錢包內進行簽名的，除非硬體錢包以前有被洩露過，否則在整個過程中私鑰永遠不會向外界公開。
+從理論上講，這使得硬體錢包在有風險的電腦上使用也很安全。有幾家硬體錢包製造商，它們在其硬體和相關軟體中都包含了不同的特性，以防止加密貨幣持有者在存儲加密貨幣時落入常見的陷阱。這些特性可能包括安全PIN碼、自毀機制和自動生成助記詞。
+如今，大多數硬體錢包都依賴於使用助記詞，助記詞作為一種主密鑰通常是由24個單詞組成，硬體錢包通過使用它計算出私鑰並訪問和使用你所持有的加密貨幣。在首次使用硬體錢包時，可以生成新的助記詞或者輸入舊的助記詞。
+助記詞是你在硬體錢包中所有加密貨幣的鑰匙。正因如此，它也被稱為恢復短語，你必須在數個安全的地方，並將它儲存在多個副本中。助記詞的副本就等同於你對自己的硬體錢包進行了完整備份，即使你的硬體錢包遺失了，你也可以通過簡單地輸入你曾備份的助記詞到新錢包中，從而恢復你所有的加密貨幣。
+使用狗狗幣的硬體錢包非常容易，所有的硬體錢包製造商都提供了說明，來指導你如何使用他們的設備進行交易。通常情況下，只需將設備插入電腦，輸入PIN碼或可選的密碼，然後開始並確認你想要進行的交易。硬體錢包的另一個好處是，它們可以使你的狗狗幣交易變得更加容易的同時亦保護你的隱私。">
 <meta name="twitter:image" content="https://dogecoin.com/assets/images/dogecoin-card.png">
 
 <meta name="theme-color" content="" />
-<link rel="canonical" href="/dogepedia/articles/dogecoin-hardware-wallets/" />
+<link rel="canonical" href="/zh-tw/dogepedia/articles/dogecoin-hardware-wallets/" />
 
 
-<title>What are the benefits of a hardware wallet, and how to use it with Doge? - Dogecoin</title>
+<title>硬體錢包的優點以及如何使用？ - Dogecoin</title>
 
 
 
@@ -64,11 +76,15 @@ Usually, hardware wallets can be connected to a PC or another device via a USB o
 
 
 
-<meta itemprop="name" content="What are the benefits of a hardware wallet, and how to use it with Doge?">
-<meta itemprop="description" content="A hardware wallet is a device designed to store a user&rsquo;s private keys securely, without ever exposing them to other external devices or the internet. For this reason, most hardware wallets are cold wallets and are amongst the most secure methods for storing and using Dogecoin and other cryptos.
-Usually, hardware wallets can be connected to a PC or another device via a USB or Bluetooth connection. Through this connection, they can be used to sign a transaction occurring in a wallet application running on the external device (such as your PC)."><meta itemprop="datePublished" content="2021-10-22T00:00:00+00:00" />
+<meta itemprop="name" content="硬體錢包的優點以及如何使用？">
+<meta itemprop="description" content="硬體錢包是一種用於安全存儲用戶私鑰的設備，不會將它們暴露給其他外部設備或網際網路。因此，大多數硬體錢包都是冷錢包，是存儲和使用狗狗幣以及其他加密貨幣最安全的方法之一。
+通常，硬體錢包可以通過USB或藍牙等其他設備連接到電腦。通過此連接，它們可以用來對外部設備(如你的電腦)上運行的錢包應用程序中的交易進行簽名。交易是在硬體錢包內進行簽名的，除非硬體錢包以前有被洩露過，否則在整個過程中私鑰永遠不會向外界公開。
+從理論上講，這使得硬體錢包在有風險的電腦上使用也很安全。有幾家硬體錢包製造商，它們在其硬體和相關軟體中都包含了不同的特性，以防止加密貨幣持有者在存儲加密貨幣時落入常見的陷阱。這些特性可能包括安全PIN碼、自毀機制和自動生成助記詞。
+如今，大多數硬體錢包都依賴於使用助記詞，助記詞作為一種主密鑰通常是由24個單詞組成，硬體錢包通過使用它計算出私鑰並訪問和使用你所持有的加密貨幣。在首次使用硬體錢包時，可以生成新的助記詞或者輸入舊的助記詞。
+助記詞是你在硬體錢包中所有加密貨幣的鑰匙。正因如此，它也被稱為恢復短語，你必須在數個安全的地方，並將它儲存在多個副本中。助記詞的副本就等同於你對自己的硬體錢包進行了完整備份，即使你的硬體錢包遺失了，你也可以通過簡單地輸入你曾備份的助記詞到新錢包中，從而恢復你所有的加密貨幣。
+使用狗狗幣的硬體錢包非常容易，所有的硬體錢包製造商都提供了說明，來指導你如何使用他們的設備進行交易。通常情況下，只需將設備插入電腦，輸入PIN碼或可選的密碼，然後開始並確認你想要進行的交易。硬體錢包的另一個好處是，它們可以使你的狗狗幣交易變得更加容易的同時亦保護你的隱私。"><meta itemprop="datePublished" content="2021-10-22T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2021-10-22T00:00:00+00:00" />
-<meta itemprop="wordCount" content="428"><meta itemprop="image" content="doge.png"/>
+<meta itemprop="wordCount" content="6"><meta itemprop="image" content="doge.png"/>
 <meta itemprop="keywords" content="" />
 
 
@@ -98,7 +114,7 @@ Usually, hardware wallets can be connected to a PC or another device via a USB o
         <div class="container">
             <header id="header" class="header">
   <span class="header__inner">
-    <a href="/" style="text-decoration: none;">
+    <a href="/zh-tw" style="text-decoration: none;">
     <div class="logo navbar-brand">
         <img src="/assets/images/dogecoin-logo.png" alt="Dogecoin logo" />
     </div>
@@ -135,22 +151,22 @@ Usually, hardware wallets can be connected to a PC or another device via a USB o
 <nav class="menu">
   <ul class="menu__inner">
     
-    <li><a href="/" class="comic-neue tooltip-body-sub">So Home</a></li>
+    <li><a href="/zh-tw/" class="comic-neue tooltip-body-sub">主頁</a></li>
     
-    <li><a href="/#what-is-dogecoin" class="comic-neue tooltip-body-sub">What is Dogecoin?</a></li>
+    <li><a href="/zh-tw/#what-is-dogecoin" class="comic-neue tooltip-body-sub">狗狗幣是什麼</a></li>
     
-    <li><a href="/wallets/" class="comic-neue tooltip-body-sub">Much Wallets</a></li>
+    <li><a href="/zh-tw/wallets/" class="comic-neue tooltip-body-sub">錢包</a></li>
     
-    <li><a href="/#community" class="comic-neue tooltip-body-sub">Very Community</a></li>
+    <li><a href="/zh-tw/#community" class="comic-neue tooltip-body-sub">社區</a></li>
     
     <li class="tooltip" role="tooltip opacity1">
       <span
-        ><a href="/dogepedia/" class="comic-neue tooltip-body-sub">So Dogepedia</a
+        ><a href="/zh-tw/dogepedia/" class="comic-neue tooltip-body-sub">狗狗百科</a
         ><span class="caret">&blacktriangledown;</span></span
       >
       <div class="tooltip-content">
         <div class="tooltip-body">
-          <a href="/dogepedia/#documentation" class="comic-neue tooltip-body-sub">Documentation</a><a href="/dogepedia/#faq" class="comic-neue tooltip-body-sub">FAQ</a><a href="/dogepedia/#howto" class="comic-neue tooltip-body-sub">How Tos</a><a href="/resources/" class="comic-neue tooltip-body-sub">Resources</a>
+          <a href="/zh-tw/dogepedia/#howto" class="comic-neue tooltip-body-sub">如何上手</a><a href="/zh-tw/dogepedia/#faq" class="comic-neue tooltip-body-sub">常見問題</a><a href="/zh-tw/dogepedia/#documentation" class="comic-neue tooltip-body-sub">文件</a><a href="/zh-tw/resources/" class="comic-neue tooltip-body-sub">資源</a>
         </div>
       </div>
     </li>
@@ -182,16 +198,25 @@ Usually, hardware wallets can be connected to a PC or another device via a USB o
  </svg>
 </span
       > <div class="locale" style="margin-left: 0px; margin-right: 10px">
-<a href="/dogepedia/articles/dogecoin-hardware-wallets/">
+<a href="/zh-tw/dogepedia/articles/dogecoin-hardware-wallets/">
     <div class="current-locale">
       
-        <span class="flag flag-icon flag-icon-gb" ></span>
+        <span class="flag flag-icon flag-icon-tw" ></span>
           
-        <span class="badge bg-dark text-light comic-neue">en</span>
+        <span class="badge bg-dark text-light comic-neue">zh-tw</span>
         <a class="icon">▼</a>
     </div>
 </a>
     <div class="locale-list" style="margin-top: -1px !important">
+        
+<a href="/dogepedia/articles/dogecoin-hardware-wallets/">
+          
+          <div class="lang">
+              <span class="flag flag-icon flag-icon-gb"></span>
+              <span class="badge bg-dark text-light comic-neue">en</span>
+          </div>
+          
+</a>
         
 <a href="/fr/dogepedia/articles/dogecoin-hardware-wallets/">
           
@@ -216,15 +241,6 @@ Usually, hardware wallets can be connected to a PC or another device via a USB o
           <div class="lang">
               <span class="flag flag-icon flag-icon-cn"></span>
               <span class="badge bg-dark text-light comic-neue">zh-cn</span>
-          </div>
-          
-</a>
-        
-<a href="/zh-tw/dogepedia/articles/dogecoin-hardware-wallets/">
-          
-          <div class="lang">
-              <span class="flag flag-icon flag-icon-tw"></span>
-              <span class="badge bg-dark text-light comic-neue">zh-tw</span>
           </div>
           
 </a>
@@ -285,8 +301,8 @@ Usually, hardware wallets can be connected to a PC or another device via a USB o
                 
 <main class="dogepedia">
     <div class="title" style="color: #FFFFFF">
-      <h1>What are the benefits of a hardware wallet, and how to use it with Doge?</h1>
-      <a href="#" onclick="history.back()" style="text-decoration: none">&lt; Much Go Back </a> — <b>What are the benefits of a hardware wallet, and how to use it with Doge?</b></a>
+      <h1>硬體錢包的優點以及如何使用？</h1>
+      <a href="#" onclick="history.back()" style="text-decoration: none">&lt; 返回 </a> — <b>硬體錢包的優點以及如何使用？</b></a>
     </div>
       <div class="underline"></div>
 
@@ -295,7 +311,11 @@ Usually, hardware wallets can be connected to a PC or another device via a USB o
 
         <div class="post-info comic-neue" style="display: none">
             
-                Also available in
+                其他語言
+                
+                  
+                      <a href="/dogepedia/articles/dogecoin-hardware-wallets/"><span class="flag flag-icon flag-icon-gb flag-icon-squared"></span></a>
+                  
                 
                   
                       <a href="/fr/dogepedia/articles/dogecoin-hardware-wallets/"><span class="flag flag-icon flag-icon-fr flag-icon-squared"></span></a>
@@ -307,10 +327,6 @@ Usually, hardware wallets can be connected to a PC or another device via a USB o
                 
                   
                       <a href="/zh-cn/dogepedia/articles/dogecoin-hardware-wallets/"><span class="flag flag-icon flag-icon-cn flag-icon-squared"></span></a>
-                  
-                
-                  
-                      <a href="/zh-tw/dogepedia/articles/dogecoin-hardware-wallets/"><span class="flag flag-icon flag-icon-tw flag-icon-squared"></span></a>
                   
                 
                   
@@ -343,12 +359,12 @@ Usually, hardware wallets can be connected to a PC or another device via a USB o
             
 
             <div class="post-content comic-neue">
-               <p>A hardware wallet is a device designed to store a user&rsquo;s <em>private keys</em> securely, without ever exposing them to other external devices or the internet. For this reason, most hardware wallets are <a href="/dogepedia/articles/how-do-i-get-a-wallet">cold wallets</a> and are amongst the most secure methods for storing and using Dogecoin and other cryptos.</p>
-<p>Usually, hardware wallets can be connected to a PC or another device via a USB or Bluetooth connection. Through this connection, they can be used to sign a transaction occurring in a wallet application running on the external device (such as your PC). The transaction is signed inside the hardware wallet, and, unless the hardware wallet has been previously compromised, the private keys are never exposed to the outside world throughout this process.</p>
-<p>In theory, this makes a hardware wallet safe to use also on a compromised computer. There are several manufacturers of hardware wallets. Each manufacturer includes different features in their hardware and associated software to prevent common pitfalls crypto holders tend to fall into when storing their crypto. These features might include security PINs, self-destruction mechanisms, and automatic generation of seed phrases.</p>
-<p>Nowadays, most hardware wallets rely on the use of a <em>seed phrase</em>, also called <em>mnemonic phrase</em> or <em>mnemonic seed</em>. A seed phrase is usually a 24-word phrase that acts as a sort of master key which the hardware wallet uses to calculate all the private keys needed to access and spend the crypto you are holding. Upon first use of a hardware wallet, a new seed phrase is generated or an old one can be input.</p>
-<p>The seed phrase is the key to all the cryptocurrencies you are holding on a hardware wallet. For this reason, it is also known as <em>recovery phrase</em>, and you must store it safely, in multiple copies, in several safe locations. A copy of the seed phrase is all you need to have a full backup of your hardware wallet. Even if your hardware wallet is lost, you can just restore access to all your crypto by simply inserting the seed phrase you have backed up in a new wallet.</p>
-<p>Using a hardware wallet with Dogecoin is very easy to do, and all hardware wallet manufacturers provide instructions on how to transact with their devices. Oftentimes it is simply a matter of inserting the device into your computer, entering the PIN and/or an optional passphrase, and then initiating and confirming the transaction that you’d like to make. An added benefit of hardware wallets is that they can facilitate a way of transacting with your Doge aimed at <a href="/dogepedia/articles/dogecoin-and-privacy">protecting your privacy</a>.</p>
+               <p>硬體錢包是一種用於安全存儲用戶私鑰的設備，不會將它們暴露給其他外部設備或網際網路。因此，大多數硬體錢包都是冷錢包，是存儲和使用狗狗幣以及其他加密貨幣最安全的方法之一。</p>
+<p>通常，硬體錢包可以通過USB或藍牙等其他設備連接到電腦。通過此連接，它們可以用來對外部設備(如你的電腦)上運行的錢包應用程序中的交易進行簽名。交易是在硬體錢包內進行簽名的，除非硬體錢包以前有被洩露過，否則在整個過程中私鑰永遠不會向外界公開。</p>
+<p>從理論上講，這使得硬體錢包在有風險的電腦上使用也很安全。有幾家硬體錢包製造商，它們在其硬體和相關軟體中都包含了不同的特性，以防止加密貨幣持有者在存儲加密貨幣時落入常見的陷阱。這些特性可能包括安全PIN碼、自毀機制和自動生成助記詞。</p>
+<p>如今，大多數硬體錢包都依賴於使用<em>助記詞</em>，助記詞作為一種主密鑰通常是由24個單詞組成，硬體錢包通過使用它計算出私鑰並訪問和使用你所持有的加密貨幣。在首次使用硬體錢包時，可以生成新的助記詞或者輸入舊的助記詞。</p>
+<p>助記詞是你在硬體錢包中所有加密貨幣的鑰匙。正因如此，它也被稱為<em>恢復短語</em>，你必須在數個安全的地方，並將它儲存在多個副本中。助記詞的副本就等同於你對自己的硬體錢包進行了完整備份，即使你的硬體錢包遺失了，你也可以通過簡單地輸入你曾備份的助記詞到新錢包中，從而恢復你所有的加密貨幣。</p>
+<p>使用狗狗幣的硬體錢包非常容易，所有的硬體錢包製造商都提供了說明，來指導你如何使用他們的設備進行交易。通常情況下，只需將設備插入電腦，輸入PIN碼或可選的密碼，然後開始並確認你想要進行的交易。硬體錢包的另一個好處是，它們可以使你的狗狗幣交易變得更加容易的同時亦保護你的隱私。</p>
 
             </div>
         </article>
@@ -377,19 +393,19 @@ Usually, hardware wallets can be connected to a PC or another device via a USB o
                         <div class="main-label footer-label comic-neue">DOGECOIN</div>
                     </div>
                 </div>
-                <p style="padding-top: 10px" class="comic-neue">The Shiba Inu is a Japanese breed of dog that was popularized as an online meme and represents Dogecoin. Dogecoin was created by Jackson Palmer &amp; Shibetoshi Nakamoto.</p>
+                <p style="padding-top: 10px" class="comic-neue">柴犬是一種日本犬，在網絡上很受歡迎，形成了一種迷因，是狗狗幣的象徵。狗狗幣由Jackson Palmer和Shibetoshi Nakamoto創立。</p>
             </div>
             <div class="footer-column">
-                <a class="footer-title comic-neue-bold">Legal</a>
-                    <li><a href="/trademarks" >Trademarks</a></li>
+                <a class="footer-title comic-neue-bold">法律聲明</a>
+                    <li><a href="/zh-tw/terms" >條款</a></li><li><a href="/zh-tw/legal" >隱私政策</a></li><li><a href="/zh-tw/trademarks" >商標</a></li>
             </div>
             <div class="footer-column">
-                <a class="footer-title comic-neue-bold">Sitemap</a>
-                <li><a href="/">So Home</a></li><li><a href="/#what-is-dogecoin">What is Dogecoin?</a></li><li><a href="/wallets/">Much Wallets</a></li><li><a href="/#community">Very Community</a></li><li><a href="/dogepedia/">So Dogepedia</a></li>
+                <a class="footer-title comic-neue-bold">網站地圖</a>
+                <li><a href="/zh-tw/">主頁</a></li><li><a href="/zh-tw/#what-is-dogecoin">狗狗幣是什麼</a></li><li><a href="/zh-tw/wallets/">錢包</a></li><li><a href="/zh-tw/#community">社區</a></li><li><a href="/zh-tw/dogepedia/">狗狗百科</a></li>
             </div>
             <div class="footer-column">
-                <a class="footer-title comic-neue-bold">Foundation</a>
-                    <li><a href="https://foundation.dogecoin.com/about/" >About</a></li><li><a href="https://foundation.dogecoin.com/manifesto/" >Manifesto</a></li><li><a href="https://foundation.dogecoin.com/about/" >Advisors</a></li><li><a href="https://foundation.dogecoin.com/announcements/" >Blog</a></li><li><a href="https://foundation.dogecoin.com/trailmap/prologue/" >Trailmap</a></li>
+                <a class="footer-title comic-neue-bold">基金會</a>
+                    <li><a href="https://foundation.dogecoin.com/zh-tw/about/" >關於</a></li><li><a href="https://foundation.dogecoin.com/zh-tw/manifesto/" >宣言</a></li><li><a href="https://foundation.dogecoin.com/zh-tw/about/" >顧問團</a></li><li><a href="https://foundation.dogecoin.com/zh-tw/announcements/" >部落格</a></li><li><a href="https://foundation.dogecoin.com/zh-tw/roadmap/" >路線圖</a></li>
             </div>
         </div>
     </div>

@@ -1,36 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-tw">
     <head>
         <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="Dogecoin">
-<meta name="description" content="Dogepedia is the resource containing Documentation, Guides, FAQs and Resources related to Dogecoin. The place to be for all shibes trying to learn about Dogecoin and crypto. Such knowledge! Much wow!
-Documentation Dogecoin The basics. Learn what Dogecoin is, and how it works.
-What is Dogecoin? What is the history of Dogecoin? How does Dogecoin work? Who owns and controls the Dogecoin network? I want some Dogecoin! How can I get it?" />
-<meta name="keywords" content="dogecoin, doge, currency, cryptocurrency, digital currency, shiba inu" />
+<meta name="description" content="狗狗百科是一個囊括了狗狗幣文件、狗狗幣指南、狗狗幣常見問題和各類狗狗幣資源的知識庫，是一個供狗狗愛好者們學習狗狗幣和加密貨幣的地方。這麼多的知識快學起來吧！
+文件 狗狗幣 最基礎的，狗狗幣是什麼，它是如何運轉的。
+狗狗幣是什麼？ 狗狗幣的歷史？ 狗狗幣如何運轉？ 誰擁有和控制狗狗幣網路？ 我想要一些狗狗幣，如何才能獲得狗狗幣？ 錢包 你的狗狗幣之旅將從這裡開始，擁有一個錢包你就可以開始儲蓄或者花費狗狗幣了。
+如何獲得錢包？ 如何備份錢包？ 硬件錢包的優點以及如何使用？ 如何找回遺失的錢包？ 錢包到底是什麼，是真實存在的嗎？ 狗狗幣的使用 狗狗幣是一種加密貨幣，你可以用它來付款和收款。
+如何收發狗狗幣？ 如何使用狗狗幣從最喜歡的商店買東西？ 使用狗狗幣時我的隱私有保護嗎？ 社區和生態 如何加入狗狗幣社區？ 狗狗幣基金會是什麼？ 我可以怎麼參與進來做貢獻？ 我的公司怎樣接收狗狗幣？ 現在有哪些商家接受狗狗幣？ 哪些慈善機構接受狗狗幣？ Dogecoin Folding @ Home是什麼？ 運行節點、挖礦、等等&amp;hellip;&amp;hellip; 技術達人們（也許每個人都需要），來學習一下狗狗幣網路是如何運轉的吧，以及我們應該如何提供支持。
+區塊鏈是什麼？ 節點是什麼？為什麼節點很重要？我需要運行一個嗎？ 礦工是什麼？ 礦池是什麼？ 如何建立一個節點？ 如何挖礦狗狗幣？ 狗狗幣開發 狗狗幣是實用、優雅、溫暖和值得信賴， 而且它在不斷進化發展。
+現在狗狗幣的開發者是誰？ 如何成為一個狗狗幣開發者？ 有路線圖嗎？ 如何上手 給所有想要學習的狗狗愛好者們。
+運行一個節點 挖礦狗狗幣 創造迷因 常見問題 &amp;amp; 常見誤解 讓我們一起來消滅關於狗狗幣的眾多不實訊息！
+狗狗幣就是個笑話！ 狗狗幣毫無用處！ 狗狗幣沒有開發者！ 為什麼不燃燒掉一些狗狗幣減少供給？ 為什麼不設置一個數量上限？ 有鯨魚持有28%的狗狗幣？ 狗狗幣是不斷通貨膨脹數量增加的，而其他加密貨幣都不是這樣！ " />
+<meta name="keywords" content="狗狗幣, doge, 貨幣, 加密貨幣, 數字貨幣, 柴犬" />
 <meta name="robots" content="noodp" />
 
 <meta property="og:image" content="https://dogecoin.com/assets/images/dogecoin-card.png"/>
-<meta property="og:title" content="Dogepedia">
-<meta property="og:description" content="Dogepedia is the resource containing Documentation, Guides, FAQs and Resources related to Dogecoin. The place to be for all shibes trying to learn about Dogecoin and crypto. Such knowledge! Much wow!
-Documentation Dogecoin The basics. Learn what Dogecoin is, and how it works.
-What is Dogecoin? What is the history of Dogecoin? How does Dogecoin work? Who owns and controls the Dogecoin network? I want some Dogecoin! How can I get it?">
+<meta property="og:title" content="狗狗百科">
+<meta property="og:description" content="狗狗百科是一個囊括了狗狗幣文件、狗狗幣指南、狗狗幣常見問題和各類狗狗幣資源的知識庫，是一個供狗狗愛好者們學習狗狗幣和加密貨幣的地方。這麼多的知識快學起來吧！
+文件 狗狗幣 最基礎的，狗狗幣是什麼，它是如何運轉的。
+狗狗幣是什麼？ 狗狗幣的歷史？ 狗狗幣如何運轉？ 誰擁有和控制狗狗幣網路？ 我想要一些狗狗幣，如何才能獲得狗狗幣？ 錢包 你的狗狗幣之旅將從這裡開始，擁有一個錢包你就可以開始儲蓄或者花費狗狗幣了。
+如何獲得錢包？ 如何備份錢包？ 硬件錢包的優點以及如何使用？ 如何找回遺失的錢包？ 錢包到底是什麼，是真實存在的嗎？ 狗狗幣的使用 狗狗幣是一種加密貨幣，你可以用它來付款和收款。
+如何收發狗狗幣？ 如何使用狗狗幣從最喜歡的商店買東西？ 使用狗狗幣時我的隱私有保護嗎？ 社區和生態 如何加入狗狗幣社區？ 狗狗幣基金會是什麼？ 我可以怎麼參與進來做貢獻？ 我的公司怎樣接收狗狗幣？ 現在有哪些商家接受狗狗幣？ 哪些慈善機構接受狗狗幣？ Dogecoin Folding @ Home是什麼？ 運行節點、挖礦、等等&amp;hellip;&amp;hellip; 技術達人們（也許每個人都需要），來學習一下狗狗幣網路是如何運轉的吧，以及我們應該如何提供支持。
+區塊鏈是什麼？ 節點是什麼？為什麼節點很重要？我需要運行一個嗎？ 礦工是什麼？ 礦池是什麼？ 如何建立一個節點？ 如何挖礦狗狗幣？ 狗狗幣開發 狗狗幣是實用、優雅、溫暖和值得信賴， 而且它在不斷進化發展。
+現在狗狗幣的開發者是誰？ 如何成為一個狗狗幣開發者？ 有路線圖嗎？ 如何上手 給所有想要學習的狗狗愛好者們。
+運行一個節點 挖礦狗狗幣 創造迷因 常見問題 &amp;amp; 常見誤解 讓我們一起來消滅關於狗狗幣的眾多不實訊息！
+狗狗幣就是個笑話！ 狗狗幣毫無用處！ 狗狗幣沒有開發者！ 為什麼不燃燒掉一些狗狗幣減少供給？ 為什麼不設置一個數量上限？ 有鯨魚持有28%的狗狗幣？ 狗狗幣是不斷通貨膨脹數量增加的，而其他加密貨幣都不是這樣！ ">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://dogecoin.com/">
 
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Dogepedia">
+<meta name="twitter:title" content="狗狗百科">
 <meta name="twitter:site" content="https://dogecoin.com/">
-<meta name="twitter:description" content="Dogepedia is the resource containing Documentation, Guides, FAQs and Resources related to Dogecoin. The place to be for all shibes trying to learn about Dogecoin and crypto. Such knowledge! Much wow!
-Documentation Dogecoin The basics. Learn what Dogecoin is, and how it works.
-What is Dogecoin? What is the history of Dogecoin? How does Dogecoin work? Who owns and controls the Dogecoin network? I want some Dogecoin! How can I get it?">
+<meta name="twitter:description" content="狗狗百科是一個囊括了狗狗幣文件、狗狗幣指南、狗狗幣常見問題和各類狗狗幣資源的知識庫，是一個供狗狗愛好者們學習狗狗幣和加密貨幣的地方。這麼多的知識快學起來吧！
+文件 狗狗幣 最基礎的，狗狗幣是什麼，它是如何運轉的。
+狗狗幣是什麼？ 狗狗幣的歷史？ 狗狗幣如何運轉？ 誰擁有和控制狗狗幣網路？ 我想要一些狗狗幣，如何才能獲得狗狗幣？ 錢包 你的狗狗幣之旅將從這裡開始，擁有一個錢包你就可以開始儲蓄或者花費狗狗幣了。
+如何獲得錢包？ 如何備份錢包？ 硬件錢包的優點以及如何使用？ 如何找回遺失的錢包？ 錢包到底是什麼，是真實存在的嗎？ 狗狗幣的使用 狗狗幣是一種加密貨幣，你可以用它來付款和收款。
+如何收發狗狗幣？ 如何使用狗狗幣從最喜歡的商店買東西？ 使用狗狗幣時我的隱私有保護嗎？ 社區和生態 如何加入狗狗幣社區？ 狗狗幣基金會是什麼？ 我可以怎麼參與進來做貢獻？ 我的公司怎樣接收狗狗幣？ 現在有哪些商家接受狗狗幣？ 哪些慈善機構接受狗狗幣？ Dogecoin Folding @ Home是什麼？ 運行節點、挖礦、等等&amp;hellip;&amp;hellip; 技術達人們（也許每個人都需要），來學習一下狗狗幣網路是如何運轉的吧，以及我們應該如何提供支持。
+區塊鏈是什麼？ 節點是什麼？為什麼節點很重要？我需要運行一個嗎？ 礦工是什麼？ 礦池是什麼？ 如何建立一個節點？ 如何挖礦狗狗幣？ 狗狗幣開發 狗狗幣是實用、優雅、溫暖和值得信賴， 而且它在不斷進化發展。
+現在狗狗幣的開發者是誰？ 如何成為一個狗狗幣開發者？ 有路線圖嗎？ 如何上手 給所有想要學習的狗狗愛好者們。
+運行一個節點 挖礦狗狗幣 創造迷因 常見問題 &amp;amp; 常見誤解 讓我們一起來消滅關於狗狗幣的眾多不實訊息！
+狗狗幣就是個笑話！ 狗狗幣毫無用處！ 狗狗幣沒有開發者！ 為什麼不燃燒掉一些狗狗幣減少供給？ 為什麼不設置一個數量上限？ 有鯨魚持有28%的狗狗幣？ 狗狗幣是不斷通貨膨脹數量增加的，而其他加密貨幣都不是這樣！ ">
 <meta name="twitter:image" content="https://dogecoin.com/assets/images/dogecoin-card.png">
 
 <meta name="theme-color" content="" />
-<link rel="canonical" href="/dogepedia/" />
+<link rel="canonical" href="/zh-tw/dogepedia/" />
 
 
-<title>Dogepedia - Dogecoin</title>
+<title>狗狗百科 - Dogecoin</title>
 
 
 
@@ -67,7 +85,7 @@ What is Dogecoin? What is the history of Dogecoin? How does Dogecoin work? Who o
 
 
 
-<meta itemprop="name" content="Dogepedia">
+<meta itemprop="name" content="狗狗百科">
 <meta itemprop="description" content="Dogecoin">
 
 
@@ -81,7 +99,7 @@ What is Dogecoin? What is the history of Dogecoin? How does Dogecoin work? Who o
 
 
 
-<link rel="alternate" type="application/rss+xml" href="/dogepedia/index.xml" title="Dogecoin" />
+<link rel="alternate" type="application/rss+xml" href="/zh-tw/dogepedia/index.xml" title="Dogecoin" />
 
 
 
@@ -98,7 +116,7 @@ What is Dogecoin? What is the history of Dogecoin? How does Dogecoin work? Who o
         <div class="container">
             <header id="header" class="header">
   <span class="header__inner">
-    <a href="/" style="text-decoration: none;">
+    <a href="/zh-tw" style="text-decoration: none;">
     <div class="logo navbar-brand">
         <img src="/assets/images/dogecoin-logo.png" alt="Dogecoin logo" />
     </div>
@@ -135,22 +153,22 @@ What is Dogecoin? What is the history of Dogecoin? How does Dogecoin work? Who o
 <nav class="menu">
   <ul class="menu__inner">
     
-    <li><a href="/" class="comic-neue tooltip-body-sub">So Home</a></li>
+    <li><a href="/zh-tw/" class="comic-neue tooltip-body-sub">主頁</a></li>
     
-    <li><a href="/#what-is-dogecoin" class="comic-neue tooltip-body-sub">What is Dogecoin?</a></li>
+    <li><a href="/zh-tw/#what-is-dogecoin" class="comic-neue tooltip-body-sub">狗狗幣是什麼</a></li>
     
-    <li><a href="/wallets/" class="comic-neue tooltip-body-sub">Much Wallets</a></li>
+    <li><a href="/zh-tw/wallets/" class="comic-neue tooltip-body-sub">錢包</a></li>
     
-    <li><a href="/#community" class="comic-neue tooltip-body-sub">Very Community</a></li>
+    <li><a href="/zh-tw/#community" class="comic-neue tooltip-body-sub">社區</a></li>
     
     <li class="tooltip" role="tooltip opacity1">
       <span
-        ><a href="/dogepedia/" class="comic-neue tooltip-body-sub">So Dogepedia</a
+        ><a href="/zh-tw/dogepedia/" class="comic-neue tooltip-body-sub">狗狗百科</a
         ><span class="caret">&blacktriangledown;</span></span
       >
       <div class="tooltip-content">
         <div class="tooltip-body">
-          <a href="/dogepedia/#documentation" class="comic-neue tooltip-body-sub">Documentation</a><a href="/dogepedia/#faq" class="comic-neue tooltip-body-sub">FAQ</a><a href="/dogepedia/#howto" class="comic-neue tooltip-body-sub">How Tos</a><a href="/resources/" class="comic-neue tooltip-body-sub">Resources</a>
+          <a href="/zh-tw/dogepedia/#howto" class="comic-neue tooltip-body-sub">如何上手</a><a href="/zh-tw/dogepedia/#faq" class="comic-neue tooltip-body-sub">常見問題</a><a href="/zh-tw/dogepedia/#documentation" class="comic-neue tooltip-body-sub">文件</a><a href="/zh-tw/resources/" class="comic-neue tooltip-body-sub">資源</a>
         </div>
       </div>
     </li>
@@ -182,16 +200,25 @@ What is Dogecoin? What is the history of Dogecoin? How does Dogecoin work? Who o
  </svg>
 </span
       > <div class="locale" style="margin-left: 0px; margin-right: 10px">
-<a href="/dogepedia/">
+<a href="/zh-tw/dogepedia/">
     <div class="current-locale">
       
-        <span class="flag flag-icon flag-icon-gb" ></span>
+        <span class="flag flag-icon flag-icon-tw" ></span>
           
-        <span class="badge bg-dark text-light comic-neue">en</span>
+        <span class="badge bg-dark text-light comic-neue">zh-tw</span>
         <a class="icon">▼</a>
     </div>
 </a>
     <div class="locale-list" style="margin-top: -1px !important">
+        
+<a href="/dogepedia/">
+          
+          <div class="lang">
+              <span class="flag flag-icon flag-icon-gb"></span>
+              <span class="badge bg-dark text-light comic-neue">en</span>
+          </div>
+          
+</a>
         
 <a href="/fr/dogepedia/">
           
@@ -216,15 +243,6 @@ What is Dogecoin? What is the history of Dogecoin? How does Dogecoin work? Who o
           <div class="lang">
               <span class="flag flag-icon flag-icon-cn"></span>
               <span class="badge bg-dark text-light comic-neue">zh-cn</span>
-          </div>
-          
-</a>
-        
-<a href="/zh-tw/dogepedia/">
-          
-          <div class="lang">
-              <span class="flag flag-icon flag-icon-tw"></span>
-              <span class="badge bg-dark text-light comic-neue">zh-tw</span>
           </div>
           
 </a>
@@ -285,8 +303,8 @@ What is Dogecoin? What is the history of Dogecoin? How does Dogecoin work? Who o
                 
 <main class="dogepedia">
     <div class="title" style="color: #FFFFFF">
-      <h1>Dogepedia</h1>
-      <a href="#" onclick="history.back()" style="text-decoration: none">&lt; Much Go Back </a> — <b>Dogepedia</b></a>
+      <h1>狗狗百科</h1>
+      <a href="#" onclick="history.back()" style="text-decoration: none">&lt; 返回 </a> — <b>狗狗百科</b></a>
     </div>
       <div class="underline"></div>
 
@@ -295,7 +313,11 @@ What is Dogecoin? What is the history of Dogecoin? How does Dogecoin work? Who o
 
         <div class="post-info comic-neue" style="display: none">
             
-                Also available in
+                其他語言
+                
+                  
+                      <a href="/dogepedia/"><span class="flag flag-icon flag-icon-gb flag-icon-squared"></span></a>
+                  
                 
                   
                       <a href="/fr/dogepedia/"><span class="flag flag-icon flag-icon-fr flag-icon-squared"></span></a>
@@ -307,10 +329,6 @@ What is Dogecoin? What is the history of Dogecoin? How does Dogecoin work? Who o
                 
                   
                       <a href="/zh-cn/dogepedia/"><span class="flag flag-icon flag-icon-cn flag-icon-squared"></span></a>
-                  
-                
-                  
-                      <a href="/zh-tw/dogepedia/"><span class="flag flag-icon flag-icon-tw flag-icon-squared"></span></a>
                   
                 
                   
@@ -343,80 +361,80 @@ What is Dogecoin? What is the history of Dogecoin? How does Dogecoin work? Who o
             
 
             <div class="post-content comic-neue">
-               <p>Dogepedia is the resource containing Documentation, Guides, FAQs and Resources related to Dogecoin. The place to be for all shibes trying to learn about Dogecoin and crypto. Such knowledge! Much wow!</p>
-<h2 id="documentation">Documentation</h2>
+               <p>狗狗百科是一個囊括了狗狗幣文件、狗狗幣指南、狗狗幣常見問題和各類狗狗幣資源的知識庫，是一個供狗狗愛好者們學習狗狗幣和加密貨幣的地方。這麼多的知識快學起來吧！</p>
+<h2 id="documentation">文件</h2>
 <hr>
-<h3 id="dogecoin">Dogecoin</h3>
-<p>The basics. Learn what Dogecoin is, and how it works.</p>
+<h3 id="dogecoin">狗狗幣</h3>
+<p>最基礎的，狗狗幣是什麼，它是如何運轉的。</p>
 <ul>
-<li><a href="/dogepedia/articles/what-is-dogecoin">What is Dogecoin?</a></li>
-<li><a href="/dogepedia/articles/history-of-dogecoin">What is the history of Dogecoin?</a></li>
-<li><a href="/dogepedia/articles/how-does-dogecoin-work">How does Dogecoin work?</a></li>
-<li><a href="/dogepedia/articles/who-owns-dogecoin">Who owns and controls the Dogecoin network?</a></li>
-<li><a href="/dogepedia/articles/get-dogecoin">I want some Dogecoin! How can I get it?</a></li>
+<li><a href="/zh-cn/dogepedia/articles/what-is-dogecoin">狗狗幣是什麼？</a></li>
+<li><a href="/zh-cn/dogepedia/articles/history-of-dogecoin">狗狗幣的歷史？</a></li>
+<li><a href="/zh-cn/dogepedia/articles/how-does-dogecoin-work">狗狗幣如何運轉？</a></li>
+<li><a href="/zh-cn/dogepedia/articles/who-owns-dogecoin">誰擁有和控制狗狗幣網路？</a></li>
+<li><a href="/zh-cn/dogepedia/articles/get-dogecoin">我想要一些狗狗幣，如何才能獲得狗狗幣？</a></li>
 </ul>
-<h3 id="wallets">Wallets</h3>
-<p>Your journey with Dogecoin might start here. A wallet application allows you to save and spend your Doge.</p>
+<h3 id="wallets">錢包</h3>
+<p>你的狗狗幣之旅將從這裡開始，擁有一個錢包你就可以開始儲蓄或者花費狗狗幣了。</p>
 <ul>
-<li><a href="/dogepedia/articles/how-do-i-get-a-wallet">How do I get a wallet?</a></li>
-<li><a href="/dogepedia/articles/how-to-backup-a-wallet">How do I backup my wallet?</a></li>
-<li><a href="/dogepedia/articles/dogecoin-hardware-wallets">What are the benefits of a hardware wallet, and how to use it with Doge?</a></li>
-<li><a href="/dogepedia/articles/recover-a-lost-wallet">How do I recover a lost wallet?</a></li>
-<li><a href="/dogepedia/articles/what-is-a-wallet">What is a wallet, really?</a></li>
+<li><a href="/zh-cn/dogepedia/articles/how-do-i-get-a-wallet">如何獲得錢包？</a></li>
+<li><a href="/zh-cn/dogepedia/articles/how-to-backup-a-wallet">如何備份錢包？</a></li>
+<li><a href="/zh-cn/dogepedia/articles/dogecoin-hardware-wallets">硬件錢包的優點以及如何使用？</a></li>
+<li><a href="/zh-cn/dogepedia/articles/recover-a-lost-wallet">如何找回遺失的錢包？</a></li>
+<li><a href="/zh-cn/dogepedia/articles/what-is-a-wallet">錢包到底是什麼，是真實存在的嗎？</a></li>
 </ul>
-<h3 id="using-doge">Using your Doge</h3>
-<p>Dogecoin is a cryptocurrency, and you can use it to send and receive payments.</p>
+<h3 id="using-doge">狗狗幣的使用</h3>
+<p>狗狗幣是一種加密貨幣，你可以用它來付款和收款。</p>
 <ul>
-<li><a href="/dogepedia/articles/send-and-receive-dogecoin">How do I send and receive Dogecoin?</a></li>
-<li><a href="/dogepedia/articles/using-dogecoin-in-a-store">How can I use Dogecoin to buy stuff from my favorite stores?</a></li>
-<li><a href="/dogepedia/articles/dogecoin-and-privacy">Is my privacy protected while using Dogecoin?</a></li>
+<li><a href="/zh-cn/dogepedia/articles/send-and-receive-dogecoin">如何收發狗狗幣？</a></li>
+<li><a href="/zh-cn/dogepedia/articles/using-dogecoin-in-a-store">如何使用狗狗幣從最喜歡的商店買東西？</a></li>
+<li><a href="/zh-cn/dogepedia/articles/dogecoin-and-privacy">使用狗狗幣時我的隱私有保護嗎？</a></li>
 </ul>
-<h3 id="community-and-ecosystem">Community and Ecosystem</h3>
+<h3 id="community-and-ecosystem">社區和生態</h3>
 <ul>
-<li><a href="/dogepedia/articles/join-the-dogecoin-community">How can I join the Dogecoin community?</a></li>
-<li><a href="/dogepedia/articles/what-is-the-dogecoin-foundation">What is the Dogecoin Foundation?</a></li>
-<li><a href="/dogepedia/articles/how-can-i-help-doge">How can I help?</a></li>
-<li><a href="/dogepedia/articles/how-can-my-business-accept-dogecoin">How can my business accept Dogecoin?</a></li>
-<li><a href="/dogepedia/articles/merchants-accepting-doge">What merchants currently accept Dogecoin?</a></li>
-<li><a href="/dogepedia/articles/charities-accepting-doge">What are some charities that accept Dogecoin?</a></li>
-<li><a href="/dogepedia/articles/dogecoin-folding-at-home">What is Dogecoin Folding @ Home?</a></li>
+<li><a href="/zh-cn/dogepedia/articles/join-the-dogecoin-community">如何加入狗狗幣社區？</a></li>
+<li><a href="/zh-cn/dogepedia/articles/what-is-the-dogecoin-foundation">狗狗幣基金會是什麼？</a></li>
+<li><a href="/zh-cn/dogepedia/articles/how-can-i-help-doge">我可以怎麼參與進來做貢獻？</a></li>
+<li><a href="/zh-cn/dogepedia/articles/how-can-my-business-accept-dogecoin">我的公司怎樣接收狗狗幣？</a></li>
+<li><a href="/zh-cn/dogepedia/articles/merchants-accepting-doge">現在有哪些商家接受狗狗幣？</a></li>
+<li><a href="/zh-cn/dogepedia/articles/charities-accepting-doge">哪些慈善機構接受狗狗幣？</a></li>
+<li><a href="/zh-cn/dogepedia/articles/dogecoin-folding-at-home">Dogecoin Folding @ Home是什麼？</a></li>
 </ul>
-<h3 id="nodex-and-mining">Running Nodes, Mining, and More</h3>
-<p>For the technical shibe - but not only. Learn how the Dogecoin network actually works, and how to support it.</p>
+<h3 id="nodex-and-mining">運行節點、挖礦、等等&hellip;&hellip;</h3>
+<p>技術達人們（也許每個人都需要），來學習一下狗狗幣網路是如何運轉的吧，以及我們應該如何提供支持。</p>
 <ul>
-<li><a href="/dogepedia/articles/what-is-a-blockchain">What is a blockchain?</a></li>
-<li><a href="/dogepedia/articles/what-is-a-node">What is a node and why is it important? Do I need to run one?</a></li>
-<li><a href="/dogepedia/articles/what-is-a-miner">What is a miner?</a></li>
-<li><a href="/dogepedia/articles/what-is-a-mining-pool">What is a mining pool?</a></li>
-<li><a href="/dogepedia/how-tos/operating-a-node">How do I setup a node?</a></li>
-<li><a href="/dogepedia/how-tos/mining-dogecoin">How can I mine Dogecoin?</a></li>
+<li><a href="/zh-cn/dogepedia/articles/what-is-a-blockchain">區塊鏈是什麼？</a></li>
+<li><a href="/zh-cn/dogepedia/articles/what-is-a-node">節點是什麼？為什麼節點很重要？我需要運行一個嗎？</a></li>
+<li><a href="/zh-cn/dogepedia/articles/what-is-a-miner">礦工是什麼？</a></li>
+<li><a href="/zh-cn/dogepedia/articles/what-is-a-mining-pool">礦池是什麼？</a></li>
+<li><a href="/zh-cn/dogepedia/how-tos/operating-a-node">如何建立一個節點？</a></li>
+<li><a href="/zh-cn/dogepedia/how-tos/mining-dogecoin">如何挖礦狗狗幣？</a></li>
 </ul>
-<h3 id="development">Development</h3>
-<p>Dogecoin is useful, personable, welcoming, and reliable: and it is evolving.</p>
+<h3 id="development">狗狗幣開發</h3>
+<p>狗狗幣是實用、優雅、溫暖和值得信賴， 而且它在不斷進化發展。</p>
 <ul>
-<li><a href="/dogepedia/articles/dogecoin-developers">Who are the current Dogecoin developers?</a></li>
-<li><a href="/dogepedia/articles/becoming-a-dogecoin-developer">How can I become a Dogecoin developer?</a></li>
-<li><a href="/dogepedia/articles/dogecoin-roadmap">Is there a roadmap?</a></li>
+<li><a href="/zh-cn/dogepedia/articles/dogecoin-developers">現在狗狗幣的開發者是誰？</a></li>
+<li><a href="/zh-cn/dogepedia/articles/becoming-a-dogecoin-developer">如何成為一個狗狗幣開發者？</a></li>
+<li><a href="/zh-cn/dogepedia/articles/dogecoin-roadmap">有路線圖嗎？</a></li>
 </ul>
-<h2 id="howto">How-Tos</h2>
-<p>For all the shibes who want to learn new tricks.</p>
-<hr>
-<ul>
-<li><a href="/dogepedia/how-tos/operating-a-node">Operating a Dogecoin Node</a></li>
-<li><a href="/dogepedia/how-tos/mining-dogecoin">Mining Dogecoin</a></li>
-<li><a href="/dogepedia/how-tos/making-memes">Making Memes</a></li>
-</ul>
-<h2 id="faq">FAQ &amp; FUD</h2>
-<p>Let&rsquo;s fight against the disinformation surrounding Dogecoin! Much wow!</p>
+<h2 id="howto">如何上手</h2>
+<p>給所有想要學習的狗狗愛好者們。</p>
 <hr>
 <ul>
-<li><a href="/dogepedia/faq/dogecoin-is-a-joke">Dogecoin is just a joke!</a></li>
-<li><a href="/dogepedia/faq/dogecoin-has-no-utility">Dogecoin has no utility!</a></li>
-<li><a href="/dogepedia/faq/dogecoin-has-no-developers">Dogecoin has no developers!</a></li>
-<li><a href="/dogepedia/faq/dogecoin-and-coin-burning">Why don&rsquo;t the devs burn some of the supply?</a></li>
-<li><a href="/dogepedia/faq/putting-a-cap-on-dogecoin">Why don&rsquo;t the devs put a cap on Dogecoin?</a></li>
-<li><a href="/dogepedia/faq/dogecoin-whale-wallets">Is it true that one person holds 28% of the total supply?</a></li>
-<li><a href="/dogepedia/faq/dogecoin-inflation">Dogecoin is inflationary, while other cryptos aren&rsquo;t!</a></li>
+<li><a href="/zh-cn/dogepedia/how-tos/operating-a-node">運行一個節點</a></li>
+<li><a href="/zh-cn/dogepedia/how-tos/mining-dogecoin">挖礦狗狗幣</a></li>
+<li><a href="/zh-cn/dogepedia/how-tos/making-memes">創造迷因</a></li>
+</ul>
+<h2 id="faq">常見問題 &amp; 常見誤解</h2>
+<p>讓我們一起來消滅關於狗狗幣的眾多不實訊息！</p>
+<hr>
+<ul>
+<li><a href="/zh-cn/dogepedia/faq/dogecoin-is-a-joke">狗狗幣就是個笑話！</a></li>
+<li><a href="/zh-cn/dogepedia/faq/dogecoin-has-no-utility">狗狗幣毫無用處！</a></li>
+<li><a href="/zh-cn/dogepedia/faq/dogecoin-has-no-developers">狗狗幣沒有開發者！</a></li>
+<li><a href="/zh-cn/dogepedia/faq/dogecoin-and-coin-burning">為什麼不燃燒掉一些狗狗幣減少供給？</a></li>
+<li><a href="/zh-cn/dogepedia/faq/putting-a-cap-on-dogecoin">為什麼不設置一個數量上限？</a></li>
+<li><a href="/zh-cn/dogepedia/faq/dogecoin-whale-wallets">有鯨魚持有28%的狗狗幣？</a></li>
+<li><a href="/zh-cn/dogepedia/faq/dogecoin-inflation">狗狗幣是不斷通貨膨脹數量增加的，而其他加密貨幣都不是這樣！</a></li>
 </ul>
 
             </div>
@@ -446,19 +464,19 @@ What is Dogecoin? What is the history of Dogecoin? How does Dogecoin work? Who o
                         <div class="main-label footer-label comic-neue">DOGECOIN</div>
                     </div>
                 </div>
-                <p style="padding-top: 10px" class="comic-neue">The Shiba Inu is a Japanese breed of dog that was popularized as an online meme and represents Dogecoin. Dogecoin was created by Jackson Palmer &amp; Shibetoshi Nakamoto.</p>
+                <p style="padding-top: 10px" class="comic-neue">柴犬是一種日本犬，在網絡上很受歡迎，形成了一種迷因，是狗狗幣的象徵。狗狗幣由Jackson Palmer和Shibetoshi Nakamoto創立。</p>
             </div>
             <div class="footer-column">
-                <a class="footer-title comic-neue-bold">Legal</a>
-                    <li><a href="/trademarks" >Trademarks</a></li>
+                <a class="footer-title comic-neue-bold">法律聲明</a>
+                    <li><a href="/zh-tw/terms" >條款</a></li><li><a href="/zh-tw/legal" >隱私政策</a></li><li><a href="/zh-tw/trademarks" >商標</a></li>
             </div>
             <div class="footer-column">
-                <a class="footer-title comic-neue-bold">Sitemap</a>
-                <li><a href="/">So Home</a></li><li><a href="/#what-is-dogecoin">What is Dogecoin?</a></li><li><a href="/wallets/">Much Wallets</a></li><li><a href="/#community">Very Community</a></li><li><a href="/dogepedia/">So Dogepedia</a></li>
+                <a class="footer-title comic-neue-bold">網站地圖</a>
+                <li><a href="/zh-tw/">主頁</a></li><li><a href="/zh-tw/#what-is-dogecoin">狗狗幣是什麼</a></li><li><a href="/zh-tw/wallets/">錢包</a></li><li><a href="/zh-tw/#community">社區</a></li><li><a href="/zh-tw/dogepedia/">狗狗百科</a></li>
             </div>
             <div class="footer-column">
-                <a class="footer-title comic-neue-bold">Foundation</a>
-                    <li><a href="https://foundation.dogecoin.com/about/" >About</a></li><li><a href="https://foundation.dogecoin.com/manifesto/" >Manifesto</a></li><li><a href="https://foundation.dogecoin.com/about/" >Advisors</a></li><li><a href="https://foundation.dogecoin.com/announcements/" >Blog</a></li><li><a href="https://foundation.dogecoin.com/trailmap/prologue/" >Trailmap</a></li>
+                <a class="footer-title comic-neue-bold">基金會</a>
+                    <li><a href="https://foundation.dogecoin.com/zh-tw/about/" >關於</a></li><li><a href="https://foundation.dogecoin.com/zh-tw/manifesto/" >宣言</a></li><li><a href="https://foundation.dogecoin.com/zh-tw/about/" >顧問團</a></li><li><a href="https://foundation.dogecoin.com/zh-tw/announcements/" >部落格</a></li><li><a href="https://foundation.dogecoin.com/zh-tw/roadmap/" >路線圖</a></li>
             </div>
         </div>
     </div>

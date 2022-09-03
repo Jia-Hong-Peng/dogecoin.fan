@@ -1,33 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-tw">
     <head>
         <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="Dogecoin">
-<meta name="description" content="A wallet is necessary for people wanting to trade, use, or ‘hodl’ Dogecoin. There are many ways you can get a wallet, and the best choice of wallet for you is dependent upon the purpose for which you intend to use your Dogecoin.
-Generally speaking, there are two overarching categories of wallets: &amp;lsquo;custodial&amp;rsquo; and &amp;rsquo;non-custodial&amp;rsquo;, depending on whether you are the sole holder of your wallet&amp;rsquo;s private key. Additionally, wallets can be &amp;lsquo;hot&amp;rsquo; or &amp;lsquo;cold&amp;rsquo;, depending on whether they are connected to the internet or not." />
-<meta name="keywords" content="dogecoin, doge, currency, cryptocurrency, digital currency, shiba inu" />
+<meta name="description" content="無論是交易狗狗幣，使用狗狗幣還是屯狗狗幣，擁有一個狗狗幣錢包都是必須的。狗狗幣錢包有多種選擇，具體哪個最合適，要看你的使用目的是什麼。
+一般來說，錢包有兩大類，根據你是否是錢包密碼的唯一所有者，可以分為托管錢包和非托管錢包。另外，還可以根據是否接入網際網路，分為熱錢包和冷錢包。
+托管錢包和非托管錢包 托管錢包是指你不持有私鑰的錢包。 「托管」是指由你以外的一個值得信賴的實體代你保管幣和私鑰。一些在線交易錢包就屬於托管錢包。
+托管錢包使用起來比較方便，受到狗狗幣交易比較頻繁的人的歡迎。
+非托管錢包是指你自己持有和控制狗狗幣私鑰的錢包。許多手機錢包、狗狗幣核心錢包和硬體錢包都是非托管錢包。非托管錢包的私鑰存在你的本地，而不是由第三方代你保存。這也是許多人更青睞非托管錢包的原因，他們認為*「只有擁有私鑰，你的狗狗幣才真的是你的狗狗幣」*。
+使用非托管錢包的人，要尤其注意不要遺失私鑰或助記詞。這一點千萬要注意！你可以通過備份你的非托管錢包來避免這樣，注意不要向任何你不信人的人洩露您的私鑰或助記詞。
+熱錢包和冷錢包 熱錢包是指接入網際網路的錢包，比如狗狗幣核心錢包、MetaMask等瀏覽器擴展錢包、手機錢包等。熱錢包既可以是托管錢包，也可以是非托管錢包。
+冷錢包是指未接入網際網路的錢包，比如硬體錢包和紙錢包。許多人認為冷錢包比熱錢包更安全，尤其在意持幣安全性的長期持幣者往往更青睞冷錢包。
+但其實大多數人覺得非托管的熱錢包，比如手機錢包，也足夠安全了，可以用來進行日常開支和持有少量狗狗幣。
+你可以同時使用多種錢包！ 狗狗幣錢包間的轉賬費用幾乎為0，所以你可以用不同類型的錢包來作不同用途，比如用硬體錢包之類的冷錢包來保存大量的狗狗幣，用托管或非托管的熱錢包來進行日常小費。一切都看你喜歡怎麼樣。" />
+<meta name="keywords" content="狗狗幣, doge, 貨幣, 加密貨幣, 數字貨幣, 柴犬" />
 <meta name="robots" content="noodp" />
 
 <meta property="og:image" content="https://dogecoin.com/assets/images/dogecoin-card.png"/>
-<meta property="og:title" content="How do I get a Dogecoin wallet?">
-<meta property="og:description" content="A wallet is necessary for people wanting to trade, use, or ‘hodl’ Dogecoin. There are many ways you can get a wallet, and the best choice of wallet for you is dependent upon the purpose for which you intend to use your Dogecoin.
-Generally speaking, there are two overarching categories of wallets: &amp;lsquo;custodial&amp;rsquo; and &amp;rsquo;non-custodial&amp;rsquo;, depending on whether you are the sole holder of your wallet&amp;rsquo;s private key. Additionally, wallets can be &amp;lsquo;hot&amp;rsquo; or &amp;lsquo;cold&amp;rsquo;, depending on whether they are connected to the internet or not.">
+<meta property="og:title" content="如何獲得狗狗幣錢包">
+<meta property="og:description" content="無論是交易狗狗幣，使用狗狗幣還是屯狗狗幣，擁有一個狗狗幣錢包都是必須的。狗狗幣錢包有多種選擇，具體哪個最合適，要看你的使用目的是什麼。
+一般來說，錢包有兩大類，根據你是否是錢包密碼的唯一所有者，可以分為托管錢包和非托管錢包。另外，還可以根據是否接入網際網路，分為熱錢包和冷錢包。
+托管錢包和非托管錢包 托管錢包是指你不持有私鑰的錢包。 「托管」是指由你以外的一個值得信賴的實體代你保管幣和私鑰。一些在線交易錢包就屬於托管錢包。
+托管錢包使用起來比較方便，受到狗狗幣交易比較頻繁的人的歡迎。
+非托管錢包是指你自己持有和控制狗狗幣私鑰的錢包。許多手機錢包、狗狗幣核心錢包和硬體錢包都是非托管錢包。非托管錢包的私鑰存在你的本地，而不是由第三方代你保存。這也是許多人更青睞非托管錢包的原因，他們認為*「只有擁有私鑰，你的狗狗幣才真的是你的狗狗幣」*。
+使用非托管錢包的人，要尤其注意不要遺失私鑰或助記詞。這一點千萬要注意！你可以通過備份你的非托管錢包來避免這樣，注意不要向任何你不信人的人洩露您的私鑰或助記詞。
+熱錢包和冷錢包 熱錢包是指接入網際網路的錢包，比如狗狗幣核心錢包、MetaMask等瀏覽器擴展錢包、手機錢包等。熱錢包既可以是托管錢包，也可以是非托管錢包。
+冷錢包是指未接入網際網路的錢包，比如硬體錢包和紙錢包。許多人認為冷錢包比熱錢包更安全，尤其在意持幣安全性的長期持幣者往往更青睞冷錢包。
+但其實大多數人覺得非托管的熱錢包，比如手機錢包，也足夠安全了，可以用來進行日常開支和持有少量狗狗幣。
+你可以同時使用多種錢包！ 狗狗幣錢包間的轉賬費用幾乎為0，所以你可以用不同類型的錢包來作不同用途，比如用硬體錢包之類的冷錢包來保存大量的狗狗幣，用托管或非托管的熱錢包來進行日常小費。一切都看你喜歡怎麼樣。">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://dogecoin.com/">
 
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="How do I get a Dogecoin wallet?">
+<meta name="twitter:title" content="如何獲得狗狗幣錢包">
 <meta name="twitter:site" content="https://dogecoin.com/">
-<meta name="twitter:description" content="A wallet is necessary for people wanting to trade, use, or ‘hodl’ Dogecoin. There are many ways you can get a wallet, and the best choice of wallet for you is dependent upon the purpose for which you intend to use your Dogecoin.
-Generally speaking, there are two overarching categories of wallets: &amp;lsquo;custodial&amp;rsquo; and &amp;rsquo;non-custodial&amp;rsquo;, depending on whether you are the sole holder of your wallet&amp;rsquo;s private key. Additionally, wallets can be &amp;lsquo;hot&amp;rsquo; or &amp;lsquo;cold&amp;rsquo;, depending on whether they are connected to the internet or not.">
+<meta name="twitter:description" content="無論是交易狗狗幣，使用狗狗幣還是屯狗狗幣，擁有一個狗狗幣錢包都是必須的。狗狗幣錢包有多種選擇，具體哪個最合適，要看你的使用目的是什麼。
+一般來說，錢包有兩大類，根據你是否是錢包密碼的唯一所有者，可以分為托管錢包和非托管錢包。另外，還可以根據是否接入網際網路，分為熱錢包和冷錢包。
+托管錢包和非托管錢包 托管錢包是指你不持有私鑰的錢包。 「托管」是指由你以外的一個值得信賴的實體代你保管幣和私鑰。一些在線交易錢包就屬於托管錢包。
+托管錢包使用起來比較方便，受到狗狗幣交易比較頻繁的人的歡迎。
+非托管錢包是指你自己持有和控制狗狗幣私鑰的錢包。許多手機錢包、狗狗幣核心錢包和硬體錢包都是非托管錢包。非托管錢包的私鑰存在你的本地，而不是由第三方代你保存。這也是許多人更青睞非托管錢包的原因，他們認為*「只有擁有私鑰，你的狗狗幣才真的是你的狗狗幣」*。
+使用非托管錢包的人，要尤其注意不要遺失私鑰或助記詞。這一點千萬要注意！你可以通過備份你的非托管錢包來避免這樣，注意不要向任何你不信人的人洩露您的私鑰或助記詞。
+熱錢包和冷錢包 熱錢包是指接入網際網路的錢包，比如狗狗幣核心錢包、MetaMask等瀏覽器擴展錢包、手機錢包等。熱錢包既可以是托管錢包，也可以是非托管錢包。
+冷錢包是指未接入網際網路的錢包，比如硬體錢包和紙錢包。許多人認為冷錢包比熱錢包更安全，尤其在意持幣安全性的長期持幣者往往更青睞冷錢包。
+但其實大多數人覺得非托管的熱錢包，比如手機錢包，也足夠安全了，可以用來進行日常開支和持有少量狗狗幣。
+你可以同時使用多種錢包！ 狗狗幣錢包間的轉賬費用幾乎為0，所以你可以用不同類型的錢包來作不同用途，比如用硬體錢包之類的冷錢包來保存大量的狗狗幣，用托管或非托管的熱錢包來進行日常小費。一切都看你喜歡怎麼樣。">
 <meta name="twitter:image" content="https://dogecoin.com/assets/images/dogecoin-card.png">
 
 <meta name="theme-color" content="" />
-<link rel="canonical" href="/dogepedia/articles/how-do-i-get-a-wallet/" />
+<link rel="canonical" href="/zh-tw/dogepedia/articles/how-do-i-get-a-wallet/" />
 
 
-<title>How do I get a Dogecoin wallet? - Dogecoin</title>
+<title>如何獲得狗狗幣錢包 - Dogecoin</title>
 
 
 
@@ -64,11 +88,19 @@ Generally speaking, there are two overarching categories of wallets: &amp;lsquo;
 
 
 
-<meta itemprop="name" content="How do I get a Dogecoin wallet?">
-<meta itemprop="description" content="A wallet is necessary for people wanting to trade, use, or ‘hodl’ Dogecoin. There are many ways you can get a wallet, and the best choice of wallet for you is dependent upon the purpose for which you intend to use your Dogecoin.
-Generally speaking, there are two overarching categories of wallets: &lsquo;custodial&rsquo; and &rsquo;non-custodial&rsquo;, depending on whether you are the sole holder of your wallet&rsquo;s private key. Additionally, wallets can be &lsquo;hot&rsquo; or &lsquo;cold&rsquo;, depending on whether they are connected to the internet or not."><meta itemprop="datePublished" content="2021-10-22T00:00:00+00:00" />
+<meta itemprop="name" content="如何獲得狗狗幣錢包">
+<meta itemprop="description" content="無論是交易狗狗幣，使用狗狗幣還是屯狗狗幣，擁有一個狗狗幣錢包都是必須的。狗狗幣錢包有多種選擇，具體哪個最合適，要看你的使用目的是什麼。
+一般來說，錢包有兩大類，根據你是否是錢包密碼的唯一所有者，可以分為托管錢包和非托管錢包。另外，還可以根據是否接入網際網路，分為熱錢包和冷錢包。
+托管錢包和非托管錢包 托管錢包是指你不持有私鑰的錢包。 「托管」是指由你以外的一個值得信賴的實體代你保管幣和私鑰。一些在線交易錢包就屬於托管錢包。
+托管錢包使用起來比較方便，受到狗狗幣交易比較頻繁的人的歡迎。
+非托管錢包是指你自己持有和控制狗狗幣私鑰的錢包。許多手機錢包、狗狗幣核心錢包和硬體錢包都是非托管錢包。非托管錢包的私鑰存在你的本地，而不是由第三方代你保存。這也是許多人更青睞非托管錢包的原因，他們認為*「只有擁有私鑰，你的狗狗幣才真的是你的狗狗幣」*。
+使用非托管錢包的人，要尤其注意不要遺失私鑰或助記詞。這一點千萬要注意！你可以通過備份你的非托管錢包來避免這樣，注意不要向任何你不信人的人洩露您的私鑰或助記詞。
+熱錢包和冷錢包 熱錢包是指接入網際網路的錢包，比如狗狗幣核心錢包、MetaMask等瀏覽器擴展錢包、手機錢包等。熱錢包既可以是托管錢包，也可以是非托管錢包。
+冷錢包是指未接入網際網路的錢包，比如硬體錢包和紙錢包。許多人認為冷錢包比熱錢包更安全，尤其在意持幣安全性的長期持幣者往往更青睞冷錢包。
+但其實大多數人覺得非托管的熱錢包，比如手機錢包，也足夠安全了，可以用來進行日常開支和持有少量狗狗幣。
+你可以同時使用多種錢包！ 狗狗幣錢包間的轉賬費用幾乎為0，所以你可以用不同類型的錢包來作不同用途，比如用硬體錢包之類的冷錢包來保存大量的狗狗幣，用托管或非托管的熱錢包來進行日常小費。一切都看你喜歡怎麼樣。"><meta itemprop="datePublished" content="2021-10-22T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2021-10-22T00:00:00+00:00" />
-<meta itemprop="wordCount" content="493"><meta itemprop="image" content="doge.png"/>
+<meta itemprop="wordCount" content="14"><meta itemprop="image" content="doge.png"/>
 <meta itemprop="keywords" content="" />
 
 
@@ -98,7 +130,7 @@ Generally speaking, there are two overarching categories of wallets: &lsquo;cust
         <div class="container">
             <header id="header" class="header">
   <span class="header__inner">
-    <a href="/" style="text-decoration: none;">
+    <a href="/zh-tw" style="text-decoration: none;">
     <div class="logo navbar-brand">
         <img src="/assets/images/dogecoin-logo.png" alt="Dogecoin logo" />
     </div>
@@ -135,22 +167,22 @@ Generally speaking, there are two overarching categories of wallets: &lsquo;cust
 <nav class="menu">
   <ul class="menu__inner">
     
-    <li><a href="/" class="comic-neue tooltip-body-sub">So Home</a></li>
+    <li><a href="/zh-tw/" class="comic-neue tooltip-body-sub">主頁</a></li>
     
-    <li><a href="/#what-is-dogecoin" class="comic-neue tooltip-body-sub">What is Dogecoin?</a></li>
+    <li><a href="/zh-tw/#what-is-dogecoin" class="comic-neue tooltip-body-sub">狗狗幣是什麼</a></li>
     
-    <li><a href="/wallets/" class="comic-neue tooltip-body-sub">Much Wallets</a></li>
+    <li><a href="/zh-tw/wallets/" class="comic-neue tooltip-body-sub">錢包</a></li>
     
-    <li><a href="/#community" class="comic-neue tooltip-body-sub">Very Community</a></li>
+    <li><a href="/zh-tw/#community" class="comic-neue tooltip-body-sub">社區</a></li>
     
     <li class="tooltip" role="tooltip opacity1">
       <span
-        ><a href="/dogepedia/" class="comic-neue tooltip-body-sub">So Dogepedia</a
+        ><a href="/zh-tw/dogepedia/" class="comic-neue tooltip-body-sub">狗狗百科</a
         ><span class="caret">&blacktriangledown;</span></span
       >
       <div class="tooltip-content">
         <div class="tooltip-body">
-          <a href="/dogepedia/#documentation" class="comic-neue tooltip-body-sub">Documentation</a><a href="/dogepedia/#faq" class="comic-neue tooltip-body-sub">FAQ</a><a href="/dogepedia/#howto" class="comic-neue tooltip-body-sub">How Tos</a><a href="/resources/" class="comic-neue tooltip-body-sub">Resources</a>
+          <a href="/zh-tw/dogepedia/#howto" class="comic-neue tooltip-body-sub">如何上手</a><a href="/zh-tw/dogepedia/#faq" class="comic-neue tooltip-body-sub">常見問題</a><a href="/zh-tw/dogepedia/#documentation" class="comic-neue tooltip-body-sub">文件</a><a href="/zh-tw/resources/" class="comic-neue tooltip-body-sub">資源</a>
         </div>
       </div>
     </li>
@@ -182,16 +214,25 @@ Generally speaking, there are two overarching categories of wallets: &lsquo;cust
  </svg>
 </span
       > <div class="locale" style="margin-left: 0px; margin-right: 10px">
-<a href="/dogepedia/articles/how-do-i-get-a-wallet/">
+<a href="/zh-tw/dogepedia/articles/how-do-i-get-a-wallet/">
     <div class="current-locale">
       
-        <span class="flag flag-icon flag-icon-gb" ></span>
+        <span class="flag flag-icon flag-icon-tw" ></span>
           
-        <span class="badge bg-dark text-light comic-neue">en</span>
+        <span class="badge bg-dark text-light comic-neue">zh-tw</span>
         <a class="icon">▼</a>
     </div>
 </a>
     <div class="locale-list" style="margin-top: -1px !important">
+        
+<a href="/dogepedia/articles/how-do-i-get-a-wallet/">
+          
+          <div class="lang">
+              <span class="flag flag-icon flag-icon-gb"></span>
+              <span class="badge bg-dark text-light comic-neue">en</span>
+          </div>
+          
+</a>
         
 <a href="/fr/dogepedia/articles/how-do-i-get-a-wallet/">
           
@@ -207,15 +248,6 @@ Generally speaking, there are two overarching categories of wallets: &lsquo;cust
           <div class="lang">
               <span class="flag flag-icon flag-icon-de"></span>
               <span class="badge bg-dark text-light comic-neue">de</span>
-          </div>
-          
-</a>
-        
-<a href="/zh-tw/dogepedia/articles/how-do-i-get-a-wallet/">
-          
-          <div class="lang">
-              <span class="flag flag-icon flag-icon-tw"></span>
-              <span class="badge bg-dark text-light comic-neue">zh-tw</span>
           </div>
           
 </a>
@@ -285,8 +317,8 @@ Generally speaking, there are two overarching categories of wallets: &lsquo;cust
                 
 <main class="dogepedia">
     <div class="title" style="color: #FFFFFF">
-      <h1>How do I get a Dogecoin wallet?</h1>
-      <a href="#" onclick="history.back()" style="text-decoration: none">&lt; Much Go Back </a> — <b>How do I get a Dogecoin wallet?</b></a>
+      <h1>如何獲得狗狗幣錢包</h1>
+      <a href="#" onclick="history.back()" style="text-decoration: none">&lt; 返回 </a> — <b>如何獲得狗狗幣錢包</b></a>
     </div>
       <div class="underline"></div>
 
@@ -295,7 +327,11 @@ Generally speaking, there are two overarching categories of wallets: &lsquo;cust
 
         <div class="post-info comic-neue" style="display: none">
             
-                Also available in
+                其他語言
+                
+                  
+                      <a href="/dogepedia/articles/how-do-i-get-a-wallet/"><span class="flag flag-icon flag-icon-gb flag-icon-squared"></span></a>
+                  
                 
                   
                       <a href="/fr/dogepedia/articles/how-do-i-get-a-wallet/"><span class="flag flag-icon flag-icon-fr flag-icon-squared"></span></a>
@@ -303,10 +339,6 @@ Generally speaking, there are two overarching categories of wallets: &lsquo;cust
                 
                   
                       <a href="/de/dogepedia/articles/how-do-i-get-a-wallet/"><span class="flag flag-icon flag-icon-de flag-icon-squared"></span></a>
-                  
-                
-                  
-                      <a href="/zh-tw/dogepedia/articles/how-do-i-get-a-wallet/"><span class="flag flag-icon flag-icon-tw flag-icon-squared"></span></a>
                   
                 
                   
@@ -343,20 +375,20 @@ Generally speaking, there are two overarching categories of wallets: &lsquo;cust
             
 
             <div class="post-content comic-neue">
-               <p>A wallet is necessary for people wanting to trade, use, or ‘hodl’ Dogecoin. There are many ways you can get a wallet, and the best choice of wallet for you is dependent upon the purpose for which you intend to use your Dogecoin.</p>
-<p>Generally speaking, there are two overarching categories of wallets: &lsquo;custodial&rsquo; and &rsquo;non-custodial&rsquo;, depending on whether you are the sole holder of your wallet&rsquo;s private key. Additionally, wallets can be &lsquo;hot&rsquo; or &lsquo;cold&rsquo;, depending on whether they are connected to the internet or not.</p>
+               <p>無論是交易狗狗幣，使用狗狗幣還是屯狗狗幣，擁有一個狗狗幣錢包都是必須的。狗狗幣錢包有多種選擇，具體哪個最合適，要看你的使用目的是什麼。</p>
+<p>一般來說，錢包有兩大類，根據你是否是錢包密碼的唯一所有者，可以分為托管錢包和非托管錢包。另外，還可以根據是否接入網際網路，分為熱錢包和冷錢包。</p>
 <p><img src="/assets/images/dogepedia/4.png" alt="image info"></p>
-<h2 id="custodial-vs-non-custodial-wallets">Custodial Wallets and Non-Custodial Wallets</h2>
-<p>A <strong>custodial wallet</strong> is a wallet to which you do not hold the <a href="/dogepedia/articles/how-to-backup-a-wallet">private key</a>. In this case, the term “custodial&quot; means that a trusted entity <em>other than yourself</em> holds custody of the coins on your behalf and manages the private key. Examples of custodial wallets include web-based exchange wallets.</p>
-<p>Advocates of custodial wallets appeal to the convenience of these types of wallets, and are typically favoured by people who <a href="/dogepedia/articles/get-dogecoin">trade Dogecoin</a> more frequently.</p>
-<p>A <strong>non-custodial wallet</strong>, on the other hand, is a wallet where you hold and control the private key to your Dogecoin. Many smartphone wallets, Dogecoin Core, and <a href="/dogepedia/articles/dogecoin-hardware-wallets">hardware wallets</a> are examples of non-custodial wallets. Instead of the keys to your wallet being stored by a centralised third-party, non-custodial wallets store your private keys locally. This is why many people prefer non-custodial wallets, and is where the popular saying <em>‘not your keys, not your coins&rsquo;</em> comes from.</p>
-<p>Having said this, it’s very important that people who use non-custodial wallets don’t lose their private keys or seed phrases! This can be avoided by <a href="/dogepedia/articles/how-to-backup-a-wallet">backing-up your non-custodial wallet</a>, and is why you should never share your seed phrase or private key with anyone you do not trust.</p>
-<h2 id="hot-and-cold-wallets">Hot Wallets and Cold Wallets</h2>
-<p>In general, a <strong>hot wallet</strong> is a wallet that is connected to the internet. Examples of hot wallets are Dogecoin Core, browser extension wallets such as MetaMask and the like, and smartphone wallets. A hot wallet can be custodial or non-custodial.</p>
-<p>A <strong>cold wallet</strong> is a wallet that is not connected to the internet. <a href="/dogepedia/articles/dogecoin-hardware-wallets">Hardware wallets</a> and paper wallets are examples of cold wallets. Many people think that cold wallets are inherently safer than hot wallets, and are typically preferred by people who intend to ‘hodl’ their Dogecoin long-term, and want to keep it especially safe.</p>
-<p>Having said this, non-custodial hot wallets, such as smartphone wallets, are regarded by most people as being safe enough to be used for day-to-day expenses and for holding small amounts of Dogecoin.</p>
+<h2 id="custodial-vs-non-custodial-wallets">托管錢包和非托管錢包</h2>
+<p><strong>托管錢包</strong>是指你不持有<a href="/zh-cn/dogepedia/articles/how-to-backup-a-wallet">私鑰</a>的錢包。 「托管」是指由你以外的一個值得信賴的實體代你保管幣和私鑰。一些在線交易錢包就屬於托管錢包。</p>
+<p>托管錢包使用起來比較方便，受到<a href="/zh-cn/dogepedia/articles/get-dogecoin">狗狗幣交易</a>比較頻繁的人的歡迎。</p>
+<p><strong>非托管錢包</strong>是指你自己持有和控制狗狗幣私鑰的錢包。許多手機錢包、狗狗幣核心錢包和<a href="/zh-cn/dogepedia/articles/dogecoin-hardware-wallets">硬體錢包</a>都是非托管錢包。非托管錢包的私鑰存在你的本地，而不是由第三方代你保存。這也是許多人更青睞非托管錢包的原因，他們認為*「只有擁有私鑰，你的狗狗幣才真的是你的狗狗幣」*。</p>
+<p>使用非托管錢包的人，要尤其注意不要遺失私鑰或助記詞。這一點千萬要注意！你可以通過<a href="/zh-cn/dogepedia/articles/how-to-backup-a-wallet">備份你的非托管錢包</a>來避免這樣，注意不要向任何你不信人的人洩露您的私鑰或助記詞。</p>
+<h2 id="hot-and-cold-wallets">熱錢包和冷錢包</h2>
+<p><strong>熱錢包</strong>是指接入網際網路的錢包，比如狗狗幣核心錢包、MetaMask等瀏覽器擴展錢包、手機錢包等。熱錢包既可以是托管錢包，也可以是非托管錢包。</p>
+<p><strong>冷錢包</strong>是指未接入網際網路的錢包，比如<a href="/zh-cn/dogepedia/articles/dogecoin-hardware-wallets">硬體錢包</a>和紙錢包。許多人認為冷錢包比熱錢包更安全，尤其在意持幣安全性的長期持幣者往往更青睞冷錢包。</p>
+<p>但其實大多數人覺得非托管的熱錢包，比如手機錢包，也足夠安全了，可以用來進行日常開支和持有少量狗狗幣。</p>
 <hr>
-<p><em>Remember, too, that you can always use more than one wallet for your Dogecoin!</em> With virtually zero fees, transferring between wallets is so cheap that many people have a variety of wallets for different purposes. For example, it&rsquo;s common for people to use a hardware wallet or other cold-wallet to store larger amounts of coins, but use a custodial or non-custodial hot wallet solution for daily purchases. The choice is yours!</p>
+<p><em>你可以同時使用多種錢包！</em> 狗狗幣錢包間的轉賬費用幾乎為0，所以你可以用不同類型的錢包來作不同用途，比如用硬體錢包之類的冷錢包來保存大量的狗狗幣，用托管或非托管的熱錢包來進行日常小費。一切都看你喜歡怎麼樣。</p>
 
             </div>
         </article>
@@ -385,19 +417,19 @@ Generally speaking, there are two overarching categories of wallets: &lsquo;cust
                         <div class="main-label footer-label comic-neue">DOGECOIN</div>
                     </div>
                 </div>
-                <p style="padding-top: 10px" class="comic-neue">The Shiba Inu is a Japanese breed of dog that was popularized as an online meme and represents Dogecoin. Dogecoin was created by Jackson Palmer &amp; Shibetoshi Nakamoto.</p>
+                <p style="padding-top: 10px" class="comic-neue">柴犬是一種日本犬，在網絡上很受歡迎，形成了一種迷因，是狗狗幣的象徵。狗狗幣由Jackson Palmer和Shibetoshi Nakamoto創立。</p>
             </div>
             <div class="footer-column">
-                <a class="footer-title comic-neue-bold">Legal</a>
-                    <li><a href="/trademarks" >Trademarks</a></li>
+                <a class="footer-title comic-neue-bold">法律聲明</a>
+                    <li><a href="/zh-tw/terms" >條款</a></li><li><a href="/zh-tw/legal" >隱私政策</a></li><li><a href="/zh-tw/trademarks" >商標</a></li>
             </div>
             <div class="footer-column">
-                <a class="footer-title comic-neue-bold">Sitemap</a>
-                <li><a href="/">So Home</a></li><li><a href="/#what-is-dogecoin">What is Dogecoin?</a></li><li><a href="/wallets/">Much Wallets</a></li><li><a href="/#community">Very Community</a></li><li><a href="/dogepedia/">So Dogepedia</a></li>
+                <a class="footer-title comic-neue-bold">網站地圖</a>
+                <li><a href="/zh-tw/">主頁</a></li><li><a href="/zh-tw/#what-is-dogecoin">狗狗幣是什麼</a></li><li><a href="/zh-tw/wallets/">錢包</a></li><li><a href="/zh-tw/#community">社區</a></li><li><a href="/zh-tw/dogepedia/">狗狗百科</a></li>
             </div>
             <div class="footer-column">
-                <a class="footer-title comic-neue-bold">Foundation</a>
-                    <li><a href="https://foundation.dogecoin.com/about/" >About</a></li><li><a href="https://foundation.dogecoin.com/manifesto/" >Manifesto</a></li><li><a href="https://foundation.dogecoin.com/about/" >Advisors</a></li><li><a href="https://foundation.dogecoin.com/announcements/" >Blog</a></li><li><a href="https://foundation.dogecoin.com/trailmap/prologue/" >Trailmap</a></li>
+                <a class="footer-title comic-neue-bold">基金會</a>
+                    <li><a href="https://foundation.dogecoin.com/zh-tw/about/" >關於</a></li><li><a href="https://foundation.dogecoin.com/zh-tw/manifesto/" >宣言</a></li><li><a href="https://foundation.dogecoin.com/zh-tw/about/" >顧問團</a></li><li><a href="https://foundation.dogecoin.com/zh-tw/announcements/" >部落格</a></li><li><a href="https://foundation.dogecoin.com/zh-tw/roadmap/" >路線圖</a></li>
             </div>
         </div>
     </div>

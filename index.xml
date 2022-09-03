@@ -2,112 +2,127 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dogecoin</title>
-    <link>/</link>
+    <link>/zh-tw/</link>
     <description>Recent content on Dogecoin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 20 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="/zh-tw/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How do I backup a Dogecoin wallet?</title>
-      <link>/dogepedia/articles/how-to-backup-a-wallet/</link>
+      <link>/zh-tw/dogepedia/articles/how-to-backup-a-wallet/</link>
       <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>/dogepedia/articles/how-to-backup-a-wallet/</guid>
+      <guid>/zh-tw/dogepedia/articles/how-to-backup-a-wallet/</guid>
       <description>A wallet is just a collection of private keys and public keys.
 Each one of the wallet’s private keys is a randomised 256-bit number unique to your wallet, and it is what you need to be able to access and spend your coins. Your public address - the address which other Dogecoin wallets can use to send Dogecoin to your wallet - is a hashed version of the public key associated with the private key.</description>
     </item>
     
     <item>
-      <title>A whale holds nearly 30% of Dogecoin supply! Is this true?</title>
-      <link>/dogepedia/faq/dogecoin-whale-wallets/</link>
+      <title>有鯨魚持有近30%的狗狗幣？</title>
+      <link>/zh-tw/dogepedia/faq/dogecoin-whale-wallets/</link>
       <pubDate>Wed, 20 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>/dogepedia/faq/dogecoin-whale-wallets/</guid>
-      <description>A common source of FUD surrounding Dogecoin is the claim that certain wallets holding a large percentage of the supply are owned by private investors or so-called &amp;ldquo;whales&amp;rdquo;. In reality, many of the top Dogecoin wallets are cold wallets or hot wallets controlled by exchanges and brokers, and they thus represent Dogecoin held in custody for thousands - or hundreds of thousands, even - of people.
-To those accustomed to blockchain analysis, many of those wallets appear as wallets managed by trading platforms, as they exhibit patterns of activity and volume that were typical of crypto exchanges or brokerage services holding large amounts of collateral.</description>
+      <guid>/zh-tw/dogepedia/faq/dogecoin-whale-wallets/</guid>
+      <description>有關狗狗幣的一個常見謠言是說，很大一部分的狗狗幣被某個私人投資者（即所謂的「鯨魚」）的錢包擁有。實際上，許多排名靠前的狗狗幣錢包是交易所或經紀商擁有的冷錢包和熱錢包，所以他們其實是數千人甚至數十萬人的狗狗幣。
+對於擅長區塊鏈分析的人來說，很多這些錢包看起來像是交易平台管理的錢包，因為他們呈現出的活動模式及交易量模式體現出了典型的持有大量抵押品的加密貨幣交易所或經紀商特徵。特別的，狗狗幣社區已經識別出了幾個最大錢包的持有者是哪些交易所和經紀商，其中就包括那個持有30%狗狗幣的著名「鯨魚」賬戶。這是通過一些社區人員的調查發現的，比如通過跟蹤交易所往私人錢包轉賬、收款這樣的線索來推斷。實際上，這個包含了數十萬散戶們持有狗狗幣的、著名的、令人擔憂的鯨魚錢包，在2021年10月和11月被分拆到了多個錢包地址。
+有時候，這些交易所和經紀商的用戶們是自願將自己的狗狗幣存放在了這些平台提供的托管服務上。也有時候，他們不得不這麼做，因為這些平台可能已經不允許他們拿回自己的狗狗幣，放到自己的私人冷錢包裡。 每當這種情況出現的時候，狗狗幣社區就會堅持不懈的要求這些平台支持提取狗狗幣。在過去的幾個月，已經有越來越多的出現這種問題的平台允許用戶拿回他們的狗狗幣。
+進行一些社區教育是非常重要的，這樣大家才能理解使用去中心化和非托管錢包的好處，這也是大家要努力做的義務，因為它們是一個無需許可、去中心化的加密貨幣的核心要素。同樣的，要意識到，這也是事關狗狗幣生態成熟程度的一個重要問題：有更多更好的自己持有狗狗幣的方案產生，大家才會意識到這一事情的優點和重要性。
+畢竟，就像那句話說的那樣：不是你的密鑰，就不是你的狗狗幣。</description>
     </item>
     
     <item>
-      <title>Dogecoin has no utility!</title>
-      <link>/dogepedia/faq/dogecoin-has-no-utility/</link>
+      <title>如何成為一個狗狗幣開發者？</title>
+      <link>/zh-tw/dogepedia/articles/becoming-a-dogecoin-developer/</link>
       <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>/dogepedia/faq/dogecoin-has-no-utility/</guid>
-      <description>Oh yes it does, and it always has! The simple fact is that money has utility - and Dogecoin is money! Indeed, Dogecoin is one of the few cryptocurrencies that has been used for this main purpose from day one.
-Dogecoin was first meant to be a joke - and it served, and will serve, this purpose very well. It almost immediately became a means to tip and encourage others to go and achieve something: the Jamaican bobsled team, the water wells in Kenya, the Dogecoin car, and many more crazy initiatives the community supported over the years.</description>
+      <guid>/zh-tw/dogepedia/articles/becoming-a-dogecoin-developer/</guid>
+      <description>狗狗幣是一個開源項目，這意味著在技術上知行合一的任何人都可以為狗狗幣的開發做出貢獻。就算你是新手，學習新技巧也都永遠不晚！
+狗狗幣有一個了不起的開發者和志願者團隊，他們致力於歡迎新人加入，並幫助他們學習和發展他們的技能。這個社區也特別鼓舞人心，時常可以看到老狗們在幫助新來的狗子們。
+狗狗幣有很多你可以幫助的項目：Core、Libdogecoin、Gigawallet、文件和網站等等。正如狗狗幣基金會的Timothy Stebbing所強調的：只要拿起你的鏟子，你就可以成為狗狗幣的開發者！開源社區崇尚任人唯賢：你做得越多，你就越受尊重，你就越能成為自己所期待的樣子！
+狗狗幣的開發者們對這些能搞起狗狗幣生態的人所帶來的進步充滿熱情。為此，Libdogecoin背後的一個關鍵目標是為許多編程語言建立捆綁，這樣狗狗幣就可以更廣泛地面向開發人員。
+如果你想為狗狗幣的技術開發做出貢獻，成為狗狗幣的開發者，請看看GitHub上Dogecoin Core和狗狗幣基金會的項目，並參與進來！</description>
     </item>
     
     <item>
-      <title>How can I become a Dogecoin developer?</title>
-      <link>/dogepedia/articles/becoming-a-dogecoin-developer/</link>
+      <title>狗狗幣毫無用處!</title>
+      <link>/zh-tw/dogepedia/faq/dogecoin-has-no-utility/</link>
       <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>/dogepedia/articles/becoming-a-dogecoin-developer/</guid>
-      <description>Dogecoin is an open-source project, meaning that anyone with some technical know-how can contribute to Dogecoin’s technical development. Even if you’re new to the space, it’s never too late to learn new tricks!
-Dogecoin has an amazing team of developers and volunteers who are committed to welcoming new people into the space and helping them to learn and develop their skills. The community is extremely encouraging, too, and it’s very common to see old Shibes helping new Shibes as they enter the space.</description>
-    </item>
-    
-    <item>
-      <title>How Does Dogecoin Work?</title>
-      <link>/dogepedia/articles/how-does-dogecoin-work/</link>
-      <pubDate>Sat, 16 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/dogepedia/articles/how-does-dogecoin-work/</guid>
-      <description>Magic and memes! (Just kidding. Kind of.)
-First things first: Dogecoin is money.
-Like other popular cryptocurrencies, Dogecoin works by utilising blockchain technology. Unlike a lot of other popular cryptocurrencies, though, the fees to send Dogecoin are extremely small, and the speed by which Dogecoin transactions are confirmed is relatively fast.
-Simply put, if you would like to send money to someone who is located anywhere in the world — or receive money from someone who is located anywhere in the world — without using a centralised bank and paying foreign currency exchange and transfer fees, then Dogecoin can work for you!</description>
+      <guid>/zh-tw/dogepedia/faq/dogecoin-has-no-utility/</guid>
+      <description>不，狗狗幣有用，而且它一直很有用！一個簡單的事實是，錢是有用的，而狗狗幣就是錢! 而且，狗狗幣是少見的為成為貨幣這一目標而生的加密貨幣。
+狗狗幣起初因玩笑而生，他過去很好的遵循了這個傳統，未來也將保持這個傳統。狗狗幣自誕生之日起，就被作為小費用於激勵人們做一些有意義的事情：贊助牙買加雪橇隊參加冬奧會、建造肯尼亞水井、建造狗狗幣汽車以及許多狗狗幣社區支持的瘋狂創意。作為一種打賞貨幣，狗狗幣始終保持了它誕生之初的用途，相較於同期的其他貨幣，狗狗幣區塊鏈上的交易費率低廉，交易速度更快。
+經過多年發展，使用狗狗幣在網上商店進行消費已經成為可能。過去兩年，隨著狗狗幣支付集成到第三方支付比如BitPay、Coinbase及一些支持狗狗幣的預付卡提供商，狗狗幣的使用呈爆發態勢。商店還可以通過JSON-RPC接口直接集成到狗狗幣區塊鏈上。狗狗幣基金會正在同開發者一起，計劃通過創建一些標準化、流程化的軟體包，來使得狗狗幣支付更便捷。
+我們正在進行開發，以增強狗狗幣相較其他加密貨幣在實用性上的優勢。隨著好幾個團隊持續建設狗狗幣及其生態，狗狗幣還將找到新的實用場景。
+根據狗狗幣宣言，狗狗幣秉承實用原則、友好原則、開放原則以及穩健原則，同時要保持獨特的快樂文化。</description>
     </item>
     
     <item>
       <title>What is a mining pool?</title>
-      <link>/dogepedia/articles/what-is-a-mining-pool/</link>
+      <link>/zh-tw/dogepedia/articles/what-is-a-mining-pool/</link>
       <pubDate>Sat, 16 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>/dogepedia/articles/what-is-a-mining-pool/</guid>
+      <guid>/zh-tw/dogepedia/articles/what-is-a-mining-pool/</guid>
       <description>Mining pools are services, operated by third parties not affiliated with Dogecoin, which allow a group of miners to combine their hashing power when attempting to solve the &amp;ldquo;puzzles&amp;rdquo; involved in mining Dogecoin.
 Mining rewards - consisting of 10,000 Dogecoin per block plus transaction fees associated to the transactions included in the block - are awarded to the miner who discovers a valid Proof of Work for a new block before any other miner in the network.</description>
     </item>
     
     <item>
+      <title>狗狗幣如何運轉?</title>
+      <link>/zh-tw/dogepedia/articles/how-does-dogecoin-work/</link>
+      <pubDate>Sat, 16 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/zh-tw/dogepedia/articles/how-does-dogecoin-work/</guid>
+      <description>魔法和迷因文化！（開玩笑的啦~）
+重中之重: 狗狗幣是貨幣。
+和其他流行的加密貨幣一樣, 狗狗幣通過區塊鏈技術運轉。但是，和其他絕大多數加密貨幣不同，狗狗幣的交易費用非常低，交易確認的速度又非常快。
+首先，如果你想向世界上任何地方的某個人寄一筆錢或者收一筆錢，但是你又不想使用中心化的銀行從而需要支付外幣兌換和轉賬費用，那麼狗狗幣就是你的好選擇！
+除此之外，狗狗幣還可以用來購買商品和服務，可以在Reddit和Twitter這樣的社交平台上打賞小費，更多關於狗狗幣用途和運轉方式的訊息，請參閱社區和生態!
+深度瞭解! 如果你想瞭解更多狗狗幣是如何運轉的，請點擊查看以下更深入的資料。
+什麼是區塊鏈 什麼是節點 什麼是礦工 什麼是礦池 </description>
+    </item>
+    
+    <item>
       <title>Operate a Dogecoin Node</title>
-      <link>/dogepedia/how-tos/operating-a-node/</link>
+      <link>/zh-tw/dogepedia/how-tos/operating-a-node/</link>
       <pubDate>Sat, 22 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>/dogepedia/how-tos/operating-a-node/</guid>
+      <guid>/zh-tw/dogepedia/how-tos/operating-a-node/</guid>
       <description>The Dogecoin network is a peer-to-peer payment network consisting of thousands of computers called nodes. Each of these nodes is running specialized software. Dogecoin Core, Dogecoin&amp;rsquo;s reference implementation, is the software more commonly used to run a Dogecoin node. It can be downloaded from the official Dogecoin.com website and directly from the Github repository.
 Running a full node is a service that volunteers in the network, called node operators, provide to the Dogecoin community.</description>
     </item>
     
     <item>
-      <title>Can you put a cap on Dogecoin?</title>
-      <link>/dogepedia/faq/putting-a-cap-on-dogecoin/</link>
+      <title>Dogecoin Folding @ Home是什麼？</title>
+      <link>/zh-tw/dogepedia/articles/dogecoin-folding-at-home/</link>
       <pubDate>Fri, 22 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>/dogepedia/faq/putting-a-cap-on-dogecoin/</guid>
-      <description>Right now, and for the next hundred years or so, Dogecoin operates like, and will continue to operate like, most other crypto assets. “Capped” assets are nowhere near mined out – and will continue adding to their supply, just like Dogecoin, for the foreseeable future.
-Dogecoin’s supply is not unlimited, because it has an absolute limit of issuance per block, per day, per year – just like other coins do.</description>
+      <guid>/zh-tw/dogepedia/articles/dogecoin-folding-at-home/</guid>
+      <description>Dogecoin Folding at Home是一個基於社區、分佈式計算的慈善項目，利用參與者閒置的計算機算力，幫助正在研究新冠肺炎、阿爾茨海默病、亨廷頓病、帕金森病、癌症和其他疾病的科學家尋找治療方法。
+它有著一目瞭然的圖形用戶界面，在計算機空閒時，通過GPU、CPU和ARM處理器在後台運行。你的計算機會收到「工作單元」，然後將完成的工作單元發送回FAH服務器，並將它們與其他工作單元彙編成與一種或多種疾病及其潛在療法相關的整體統計模擬。
+除了幫助科學家開發各種疾病的新療法，參與者每週還會獲得狗狗幣的獎勵，這些資金是由長期贊助者和用戶捐款提供給該組織的。Dogecoin Folding at Home軟件支持Windows, Linux和MacOS操作系統。開始或瞭解更多:點擊這裡!</description>
     </item>
     
     <item>
-      <title>Charities Accepting Doge</title>
-      <link>/dogepedia/articles/charities-accepting-doge/</link>
+      <title>How can I help?</title>
+      <link>/zh-tw/dogepedia/articles/how-can-i-help-doge/</link>
       <pubDate>Fri, 22 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>/dogepedia/articles/charities-accepting-doge/</guid>
-      <description>Dogecoin’s history includes many charitable endeavours: from funding clean water wells in 2014 for Kenya, to the #TeamSeas initiative in 2021 – and many worthwhile causes in-between. The past year, though, has seen a dramatic increase in charities directly accepting Dogecoin donations – which is very much wow!
-Organisations like The Giving Block make it super easy for charities to accept Dogecoin and other cryptocurrency donations. Initiatives like The Water Project — which has been accepting Dogecoin for over 6-years — now use The Giving Block to accept Dogecoin donations to fund fully monitored water projects in Africa.</description>
+      <guid>/zh-tw/dogepedia/articles/how-can-i-help-doge/</guid>
+      <description>There are so many ways to get involved and support Dogecoin. From making memes and artworks – to educating people who are new to crypto: there are endless possibilities for you to get involved and to help the Dogecoin movement.
+A good place to start is by joining one or more of the highly active communities on platforms such as Reddit, Twitter, and Discord.
+If you have a technical background and would like to contribute to Dogecoin technical development, you can get involved via Dogecoin Core and The Dogecoin Foundation GitHub repositories.</description>
     </item>
     
     <item>
-      <title>Dogecoin and coin burning</title>
-      <link>/dogepedia/faq/dogecoin-and-coin-burning/</link>
+      <title>How can I join the Dogecoin community?</title>
+      <link>/zh-tw/dogepedia/articles/join-the-dogecoin-community/</link>
       <pubDate>Fri, 22 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>/dogepedia/faq/dogecoin-and-coin-burning/</guid>
-      <description>Dogecoin does not need coin burning marketing mechanisms that new tokens and other chains have attempted to implement to artificially inflate their prices.
-Simplez.</description>
+      <guid>/zh-tw/dogepedia/articles/join-the-dogecoin-community/</guid>
+      <description>There are many ways you can get involved in the Dogecoin community! Most popular social-media platforms have a thriving and welcoming Dogecoin community through which newcomers and old-timers alike can connect, discuss, and share their thoughts, memes, ideas, and spread the joy of all things Doge.
+Reddit and Twitter are the most popular platforms for the Dogecoin community, with millions of active Shibes on either platform.
+On Reddit, r/dogecoin is so popular that in 2021 it was ranked as Reddit’s Top community for cryptocurrency and finance, and posts in the Dogecoin subreddit are frequently the most upvoted posts for the entire Reddit platform!</description>
     </item>
     
   </channel>
